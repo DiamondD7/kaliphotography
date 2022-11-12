@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    color: #202020;
+}
+
+.hero-title{
+
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+    text-align: center;
+    margin: 50px 0 0 0;
+    color: #202020;
+}
+
+.arr-right{
+    position: absolute;
+    top:40%;
+    right: 10px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.arr-left{
+    position: absolute;
+    top:40%;
+    left: 10px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    
+}
+
+/* .logo-div{
+    width: 100vw;
+    height: 120px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e2e2e2;
+} */
+
+.slide{
+    transition: all 1s ease-in-out;
+}
+
+.logo{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+    /* z-index: 3;
+    width: 450px; */
+    
+}
+
