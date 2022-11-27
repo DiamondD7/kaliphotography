@@ -208,3 +208,68 @@ body{
         width: 100%;
     }
 }
+
+
+
+/* ------------------ABOUT ME--------------- */
+
+.introduction-title{
+    position:absolute;
+    top:-200px;
+    left:0;
+    width: 700px;
+    z-index: -1;
+}
+
+.border-line{
+    border-left: 1px solid #202020;
+    position: absolute;
+    top:256px;
+    left:680px;
+    width: 0.5px;
+    height: 203px;
+    z-index: 2;
+}
+
+.introduction-paragraph{
+
+    position: absolute;
+    left: 700px;
+    top: 250px;
+    font-size: 18px;
+    width: 800px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    /* border-left: 0.5px solid #202020;
+    padding:20px; */
+    z-index: 1;
+}
+
+.about-ul{
+    position: absolute;
+    top:160px;
+    left:680px;
+    list-style: none;
+    letter-spacing: 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    text-transform: uppercase;
+    width: 800px;
+
+}
+
+.about-ul li button{
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+}
+
+.active{
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,0.4);
+}
+
+/* ----------------------------------------- */
