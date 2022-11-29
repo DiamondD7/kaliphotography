@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './components/Home';
 import { MapPin, Phone, InstagramLogo, EnvelopeOpen } from "phosphor-react";
 import About from './components/About';
+import Gallery from './components/Gallery';
 const App = () => {
     let component;
     switch(window.location.pathname){
@@ -11,6 +12,9 @@ const App = () => {
         case "/about":
             component = <About/>;
             break;
+        case "/gallery":
+          component = <Gallery/>;
+          break;
         default: 
         console.log("Error in te switch statement");
         break;
@@ -29,7 +33,7 @@ const App = () => {
               <button className="nav-btns"><a href="/about">About</a></button>
             </li>
             <li>
-              <button className="nav-btns">Gallery</button>
+              <button className="nav-btns"><a href='/gallery'>Gallery</a></button>
             </li>
             <li>
               <button className="nav-btns">Sessions</button>

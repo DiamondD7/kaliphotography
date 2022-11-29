@@ -29,22 +29,58 @@ const About = () => {
       {/* <h1 className="introduction-title">This is about me</h1> */}
       <img className="introduction-title" src={AboutTitle} />
       <div className="border-line"></div>
-      <p className="introduction-paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-        necessitatibus similique, nam sunt, eaque nihil fugit dolore a cumque
-        vitae ipsam sit reiciendis? Eius, impedit! Obcaecati veritatis
-        praesentium sapiente aliquid? Lorem ipsum dolor, sit amet consectetur
-        adipisicing elit. Id quae earum, dolorem quo voluptas reiciendis culpa a
-        eaque et nobis, mollitia fugiat ipsa itaque, numquam neque dicta ex
-        officiis? Architecto. Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Atque exercitationem maxime tempore, nihil illo quas
-        eaque nobis animi vel debitis itaque ipsam nam veniam provident
-        voluptate repellat voluptatibus optio necessitatibus! Lorem ipsum, dolor
-        sit amet consectetur adipisicing elit. Sed, veritatis veniam! Officiis
-        illo neque voluptatibus ducimus amet animi voluptate reiciendis
-        consequatur deserunt dolor, eius quibusdam, asperiores inventore quas?
-        Molestias, quos.
-      </p>
+      {historyActive === true ? (
+        <p className="introduction-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          necessitatibus similique, nam sunt, eaque nihil fugit dolore a cumque
+          vitae ipsam sit reiciendis? Eius, impedit! Obcaecati veritatis
+          praesentium sapiente aliquid? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Id quae earum, dolorem quo voluptas reiciendis culpa
+          a eaque et nobis, mollitia fugiat ipsa itaque, numquam neque dicta ex
+          officiis? Architecto. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Atque exercitationem maxime tempore, nihil illo quas
+          eaque nobis animi vel debitis itaque ipsam nam veniam provident
+          voluptate repellat voluptatibus optio necessitatibus! Lorem ipsum,
+          dolor sit amet consectetur adipisicing elit. Sed, veritatis veniam!
+          Officiis illo neque voluptatibus ducimus amet animi voluptate
+          reiciendis consequatur deserunt dolor, eius quibusdam, asperiores
+          inventore quas? Molestias, quos.
+        </p>
+      ) : (
+        ""
+      )}
+
+      {passionActive === true ? (
+        <p className="introduction-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          necessitatibus similique, nam sunt, eaque nihil fugit dolore a cumque
+          vitae ipsam sit reiciendis? Eius, impedit! Obcaecati veritatis
+          praesentium sapiente aliquid? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Id quae earum, dolorem quo voluptas reiciendis culpa
+          a eaque et nobis, mollitia fugiat ipsa itaque, numquam neque dicta ex
+          officiis? Architecto. Lorem ipsum dolor sit amet, consectetur
+        </p>
+      ) : (
+        ""
+      )}
+
+      {careerActive === true ? (
+        <p className="introduction-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+          necessitatibus similique, nam sunt, eaque nihil fugit dolore a cumque
+          vitae ipsam sit reiciendis? Eius, impedit! Obcaecati veritatis
+        </p>
+      ) : (
+        ""
+      )}
+
+      {gearsActive === true ? (
+        <p className="introduction-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      ) : (
+        ""
+      )}
 
       <div>
         <ul className="about-ul">

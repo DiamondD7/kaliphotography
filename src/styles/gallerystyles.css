@@ -1,0 +1,39 @@
+.album-lists{
+    margin:20px 0 0 40px;
+    list-style: none;
+}
+
+.album-lists li {
+    margin-top: 20px;
+}
+
+.album-lists li button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.album-lists-container{
+    /* background-color: blue; */
+    overflow-y: auto;
+    width: 280px;
+    height: 100%;
+}
+
+.gallery-main-container{
+    display: flex;
+    height: 90vh;
+}
+
+.gallery{
+    width: 80vw;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+    padding: 0 12px;
+    overflow-y: auto;
+}
