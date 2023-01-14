@@ -3,6 +3,7 @@ import {
   allData,
   newbornData,
   automotiveData,
+  wildlifedata,
 } from "../assets/photosDatajson.js/Allphotos";
 import "../styles/gallerystyles.css";
 
@@ -14,7 +15,7 @@ const Gallery = (props) => {
       <div className="album-lists-container">
         <ul className="album-lists">
           <li>
-            <button>Wildlife</button>
+            <button>Events</button>
           </li>
           <li>
             <button onClick={() => setData(automotiveData)}>Automotive</button>
@@ -38,7 +39,7 @@ const Gallery = (props) => {
             <button>Sports</button>
           </li>
           <li>
-            <button>Wildlife</button>
+            <button onClick={() => setData(wildlifedata)}>Wildlife</button>
           </li>
           <li>
             <button>Automotive</button>

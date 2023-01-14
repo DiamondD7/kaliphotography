@@ -6,6 +6,8 @@ import four from "../../images/sliderImages/four.jpg";
 import hero from "../../images/hero.jpg";
 import hero2 from "../../images/hero2.jpg";
 
+import wl1 from '../../images/wildlifeimages/wl1.jpg';
+
 import nb1 from "../../images/newbornimages/nb1.jpg";
 import nb2 from "../../images/newbornimages/nb2.jpg";
 import nb3 from "../../images/newbornimages/nb3.jpg";
@@ -90,6 +92,12 @@ export let newbornData = [
   },
 ];
 
+export let wildlifedata = [
+  {
+    id: 1,
+      imgSrc: wl1,
+  }
+]
 
 export let automotiveData = [
   {

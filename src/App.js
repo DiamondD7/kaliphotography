@@ -22,7 +22,9 @@ const App = () => {
     }
     return(
         <div>
+          <div className='testtest'>
             {component}
+          </div>
             <div className="navs">
           <ul className="navigation-ul">
             <li>

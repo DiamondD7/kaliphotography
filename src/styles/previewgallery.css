@@ -1,10 +1,11 @@
 .main-container{
     display: grid;
     grid-template-columns: repeat(4, 350px);
-    gap: 25px;
 
-    margin: 50px 0 0 220px;
-    
+    /* margin: 0 0 0 253.3px; */
+    padding-left: 253.3px;
+    overflow: auto;
+    height: 90vh;
 }
 
 .album-title{
@@ -14,15 +15,45 @@
 .content button{
     padding: 5px;
     border: none;
-    background-color: black;
+    background-color: transparent;
     color: white;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 
 .content{
     /* padding:132px 132px 132px 132px; */
     padding-top: 37%;
     text-align: center;
+}
+
+.preview-container-maternity{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/newbornimages/nb11.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-maternity > .content{
+    opacity: 0;
+}
+
+.preview-container-maternity:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
 }
 
 .preview-container{
@@ -37,14 +68,21 @@
 
 .preview-container > .content{
     opacity: 0;
-    transition: opacity 1.2s ease;
 }
 
 .preview-container:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     color:rgba(200,200,200,0.7);
-    padding-top: 37%;
+    padding-top: 29%;
     opacity: 1;
     transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
 }
 
 .preview-container-automotive{
@@ -59,12 +97,368 @@
 
 .preview-container-automotive > .content{
     opacity: 0;
-    transition: opacity 1.2s ease;
 }
 
 .preview-container-automotive:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     color:rgba(200,200,200,0.7);
-    padding-top: 37%;
+    padding-top: 29%;
     opacity: 1;
     transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-traditional{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/two.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-traditional > .content{
+    opacity: 0;
+}
+
+.preview-container-traditional:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-couples{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/three.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-couples > .content{
+    opacity: 0;
+}
+
+.preview-container-couples:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-families{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/four.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-families > .content{
+    opacity: 0;
+}
+
+.preview-container-families:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-lifestyle{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/two.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-lifestyle > .content{
+    opacity: 0;
+}
+
+.preview-container-lifestyle:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-birthday{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/two.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-birthday > .content{
+    opacity: 0;
+}
+
+.preview-container-birthday:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-wedding{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/two.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-wedding > .content{
+    opacity: 0;
+}
+
+.preview-container-wedding:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-wildlife{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/wildlifeimages/wl1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-wildlife > .content{
+    opacity: 0;
+}
+
+.preview-container-wildlife:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-landscape{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/two.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-landscape > .content{
+    opacity: 0;
+}
+
+.preview-container-landscape:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+
+.preview-container-travel{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/two.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-travel > .content{
+    opacity: 0;
+}
+
+.preview-container-travel:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-pets{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/two.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-pets > .content{
+    opacity: 0;
+}
+
+.preview-container-pets:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-street{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/one.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-street > .content{
+    opacity: 0;
+}
+
+.preview-container-street:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.preview-container-sports{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/sliderImages/three.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    cursor: pointer;
+}
+
+.preview-container-sports > .content{
+    opacity: 0;
+}
+
+.preview-container-sports:hover > .content{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    color:rgba(200,200,200,0.7);
+    padding-top: 29%;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+    height: 200px;
+
+    margin-top: 50px;
 }

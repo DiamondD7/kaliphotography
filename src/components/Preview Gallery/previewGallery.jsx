@@ -3,6 +3,7 @@ import Gallery from "../Gallery";
 import {
   newbornData,
   automotiveData,
+  wildlifedata,
 } from "../../assets/photosDatajson.js/Allphotos";
 
 import "../../styles/previewgallery.css";
@@ -18,26 +19,7 @@ const PreviewGallery = () => {
     <div>
       {isAlbumClicked === false ? (
         <div className="main-container">
-          <div className="preview-container" id="nbpreview">
-            <div className="album-title">
-              <p>Newborn Photography</p>
-            </div>
-            <div className="content">
-              <button
-                onClick={() => {
-                  setDataClicked(newbornData);
-                  setIsAlbumClicked(true);
-                }}
-              >
-                Select
-              </button>
-            </div>
-          </div>
-
-          <div className="preview-container-automotive">
-            <div className="album-title">
-              <p>Automotive Photography</p>
-            </div>
+          <div className="preview-container-couples">
             <div className="content">
               <button
                 onClick={() => {
@@ -45,18 +27,190 @@ const PreviewGallery = () => {
                   setIsAlbumClicked(true);
                 }}
               >
-                Select
+                Couple's Portraits
               </button>
             </div>
           </div>
-          <div className="preview-container">
-            <div className="album-title">
-              <p>Wedding Photography</p>
+
+          <div className="preview-container-traditional" id="nbpreview">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(newbornData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Traditional Portraits
+              </button>
             </div>
           </div>
-          <div className="preview-container">
-            <div className="album-title">
-              <p>Wildlife Photography</p>
+
+          <div className="preview-container-families">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Family Portraits
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-lifestyle">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Lifestyle Portraits
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-maternity" id="nbpreview">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(newbornData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Maternity
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container" id="nbpreview">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(newbornData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Newborn
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-birthday">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Birthday
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-wedding">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Wedding
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-pets">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Pets
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-wildlife">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(wildlifedata);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Wildlife
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-landscape">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Landscape
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-travel">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Travel
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-street">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Street
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-sports">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Sports
+              </button>
+            </div>
+          </div>
+
+          <div className="preview-container-automotive">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(automotiveData);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Automotive
+              </button>
             </div>
           </div>
         </div>
