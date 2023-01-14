@@ -70,7 +70,7 @@ body{
 
 .img-one{
     width:100vw;
-    height: 950px;
+    height: 920px;
     object-position: 0% 90%;
     object-fit: cover;
     animation: right-to-left 1s ease-in-out;
@@ -78,11 +78,11 @@ body{
 
 @keyframes right-to-left{
     0%{
-        height: 940px;
+        height: 910px;
         opacity:0.9;
     }
     100%{
-        height: 950px;
+        height: 920px;
         opacity: 1;
     }
 }
@@ -90,8 +90,9 @@ body{
 
 .img-two{
     width:100vw;
-    min-height: 100px;
-    max-height:950px;
+    /* min-height: 100px;
+    max-height:950px; */
+    height: 920px;
 
     object-position: 0% 50%;
     object-fit: cover;
@@ -99,18 +100,19 @@ body{
 }
 @keyframes right-to-left2{
     0%{
-        height: 940px;
+        height: 910px;
         opacity:0.9;
     }
     100%{
-        height: 950px;
+        height: 920px;
         opacity: 1;
     }
 }
 
 .img-three{
     width:100vw;
-    height: 950px;
+    /* height: 950px; */
+    height: 920px;
     object-position: 0% 1%;
     object-fit: cover;
     animation: right-to-left3 1s ease-in-out;
@@ -118,29 +120,30 @@ body{
 }
 @keyframes right-to-left3{
     0%{
-        height: 940px;
+        height: 910px;
         opacity:0.9;
     }
     100%{
-        height: 950px;
+        height: 920px;
         opacity: 1;
     }
 }
 
 .img-four{
     width:100vw;
-    height: 950px;
+    /* height: 950px; */
+    height: 920px;
     object-position: 0% 2%;
     object-fit: cover;
     animation: right-to-left4 1s ease-in-out;
 }
 @keyframes right-to-left4{
     0%{
-        height: 940px;
+        height: 910px;
         opacity:0.9;
     }
     100%{
-        height: 950px;
+        height: 920px;
         opacity: 1;
     }
 }
