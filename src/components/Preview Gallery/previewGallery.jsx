@@ -11,6 +11,7 @@ import "../../styles/previewgallery.css";
 const PreviewGallery = () => {
   const [dataClicked, setDataClicked] = useState([]);
   const [isAlbumClicked, setIsAlbumClicked] = useState(false);
+  const [coupleCLicked, setCoupleClicked] = useState(false);
 
   const albumClicked = () => {
     setDataClicked(newbornData);
@@ -24,8 +25,8 @@ const PreviewGallery = () => {
             <div className="content">
               <button
                 onClick={() => {
-                  setDataClicked(automotiveData);
                   setIsAlbumClicked(true);
+                  setCoupleClicked(true);
                 }}
               >
                 Couple
@@ -59,7 +60,20 @@ const PreviewGallery = () => {
             </div>
           </div>
 
-          <div className="preview-container-lifestyle">
+          <div className="preview-container-wedding">
+            <div className="content">
+              <button
+                onClick={() => {
+                  setDataClicked(null);
+                  setIsAlbumClicked(true);
+                }}
+              >
+                Engagement
+              </button>
+            </div>
+          </div>
+
+          {/* <div className="preview-container-lifestyle">
             <div className="content">
               <button
                 onClick={() => {
@@ -70,7 +84,7 @@ const PreviewGallery = () => {
                 Lifestyle
               </button>
             </div>
-          </div>
+          </div> */}
 
           <div className="preview-container-maternity" id="nbpreview">
             <div className="content">
@@ -107,19 +121,6 @@ const PreviewGallery = () => {
                 }}
               >
                 Birthday
-              </button>
-            </div>
-          </div>
-
-          <div className="preview-container-wedding">
-            <div className="content">
-              <button
-                onClick={() => {
-                  setDataClicked(null);
-                  setIsAlbumClicked(true);
-                }}
-              >
-                Engagement
               </button>
             </div>
           </div>
@@ -216,7 +217,7 @@ const PreviewGallery = () => {
           </div>
         </div>
       ) : (
-        <Gallery dataPassed={dataClicked} />
+        <Gallery dataPassed={dataClicked} coupleCLicked={coupleCLicked} />
       )}
     </div>
   );

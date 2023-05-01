@@ -47,3 +47,37 @@
 
 
 /* COMING SOON - END */
+
+
+
+
+
+/* COUPLE ALBUM - START */
+
+.couple-albums__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+}
+
+.erinwayne__wrapper{
+    height: 200px;
+    width: 300px;
+
+    margin-top: 20px;
+
+    background-color: blue;
+}
+
+.contents{
+    padding-top: 29%;
+    text-align: center;
+}
+
+.contents button{
+    background-color: transparent;
+    border: none;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+
+/* COUPLE ALBUM - END */
