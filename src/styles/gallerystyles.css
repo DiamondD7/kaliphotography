@@ -84,6 +84,18 @@
     background-position: center center; 
 } 
 
+.laryjack__wrapper{
+    height: 200px;
+    width: 300px;
+
+    margin-top: 20px;
+
+    background-image: url(../images/laryjackimages/lj-thumbnail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+} 
+
 .contents{
     padding-top: 29%;
     text-align: center;

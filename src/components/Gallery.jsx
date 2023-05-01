@@ -220,7 +220,7 @@ const Gallery = (props) => {
               </div>
             </div>
 
-            <div className="erinwayne__wrapper">
+            <div className="laryjack__wrapper">
               <div className="contents">
                 {/* setData(newbornData); */}
                 <button>Lary & Jack</button>
