@@ -71,6 +71,14 @@
     background-position: center center; 
 }
 
+.erinwayne__wrapper:hover > .contents{
+    height: 185px;
+    width: 300px;
+    margin-top: 8px;
+    padding-top: 26.3%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+}
+
 
 .emmajono__wrapper{
     height: 200px;
@@ -84,6 +92,14 @@
     background-position: center center; 
 } 
 
+.emmajono__wrapper:hover > .contents{
+    height: 185px;
+    width: 300px;
+    margin-top: 8px;
+    padding-top: 26.3%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+} 
+
 .laryjack__wrapper{
     height: 200px;
     width: 300px;
@@ -95,6 +111,34 @@
     background-repeat: no-repeat;
     background-position: center center; 
 } 
+
+.laryjack__wrapper:hover > .contents{
+    height: 185px;
+    width: 300px;
+    margin-top: 8px;
+    padding-top: 26.3%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+} 
+
+.sheenaben__wrapper{
+    height: 200px;
+    width: 300px;
+
+    margin-top: 20px;
+
+    background-image: url(../images/sheenabenimages/sb-thumbnail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+} 
+
+.sheenaben__wrapper:hover > .contents{
+    height: 185px;
+    width: 300px;
+    margin-top: 8px;
+    padding-top: 26.3%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+}
 
 .contents{
     padding-top: 29%;

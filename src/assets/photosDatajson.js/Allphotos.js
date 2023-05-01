@@ -125,6 +125,23 @@ import ej25 from '../../images/emmajonoimages/ej25.jpg'
 import ej26 from '../../images/emmajonoimages/ej26.jpg'
 import ej27 from '../../images/emmajonoimages/ej27.jpg'
 import ej28 from '../../images/emmajonoimages/ej28.jpg'
+
+import lj1 from '../../images/laryjackimages/lj1.jpg'
+import lj2 from '../../images/laryjackimages/lj2.jpg'
+import lj3 from '../../images/laryjackimages/lj3.jpg'
+import lj4 from '../../images/laryjackimages/lj4.jpg'
+import lj5 from '../../images/laryjackimages/lj5.jpg'
+import lj6 from '../../images/laryjackimages/lj6.jpg'
+import lj7 from '../../images/laryjackimages/lj7.jpg'
+import lj8 from '../../images/laryjackimages/lj8.jpg'
+import lj9 from '../../images/laryjackimages/lj9.jpg'
+import lj10 from '../../images/laryjackimages/lj10.jpg'
+import lj11 from '../../images/laryjackimages/lj11.jpg'
+import lj12 from '../../images/laryjackimages/lj12.jpg'
+import lj13 from '../../images/laryjackimages/lj13.jpg'
+import lj14 from '../../images/laryjackimages/lj14.jpg'
+
+
 export let newbornData = [
   {
     id: 18,
@@ -474,6 +491,65 @@ export let erinwayneData = [
     imgSrc: ew44,
   }
 ];
+
+export let laryjackData = [
+  {
+    id: 1,
+    imgSrc: lj1,
+  },
+  {
+    id: 2,
+    imgSrc: lj2,
+  },
+  {
+    id: 3,
+    imgSrc: lj3,
+  },
+  {
+    id: 4,
+    imgSrc: lj4,
+  },
+  {
+    id: 5,
+    imgSrc: lj5,
+  },
+  {
+    id: 6,
+    imgSrc: lj6,
+  },
+  {
+    id: 7,
+    imgSrc: lj7,
+  },
+  {
+    id:8,
+    imgSrc: lj8,
+  },
+  {
+    id: 9,
+    imgSrc: lj9,
+  },
+  {
+    id: 10,
+    imgSrc: lj10,
+  },
+  {
+    id: 11,
+    imgSrc: lj11,
+  },
+  {
+    id: 12,
+    imgSrc: lj12,
+  },
+  {
+    id: 13,
+    imgSrc: lj13,
+  },
+  {
+    id: 14,
+    imgSrc: lj14,
+  },
+]
 
 export let emmajonoData = [
   {
