@@ -119,7 +119,7 @@ const PreviewGallery = () => {
                   setIsAlbumClicked(true);
                 }}
               >
-                Wedding
+                Engagement
               </button>
             </div>
           </div>

@@ -39,7 +39,7 @@ const Gallery = (props) => {
             <button onClick={() => setData(birthdayData)}>Birthdays</button>
           </li>
           <li>
-            <button onClick={() => setData(null)}>Weddings</button>
+            <button onClick={() => setData(null)}>Engagement</button>
           </li>
           <li>
             <button onClick={() => setData(null)}>Pets</button>
