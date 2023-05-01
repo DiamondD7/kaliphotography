@@ -4,6 +4,7 @@ import {
   newbornData,
   automotiveData,
   wildlifedata,
+  birthdayData,
 } from "../../assets/photosDatajson.js/Allphotos";
 
 import "../../styles/previewgallery.css";
@@ -27,7 +28,7 @@ const PreviewGallery = () => {
                   setIsAlbumClicked(true);
                 }}
               >
-                Couple's Portraits
+                Couple
               </button>
             </div>
           </div>
@@ -40,7 +41,7 @@ const PreviewGallery = () => {
                   setIsAlbumClicked(true);
                 }}
               >
-                Traditional Portraits
+                Traditional
               </button>
             </div>
           </div>
@@ -53,7 +54,7 @@ const PreviewGallery = () => {
                   setIsAlbumClicked(true);
                 }}
               >
-                Family Portraits
+                Family
               </button>
             </div>
           </div>
@@ -66,7 +67,7 @@ const PreviewGallery = () => {
                   setIsAlbumClicked(true);
                 }}
               >
-                Lifestyle Portraits
+                Lifestyle
               </button>
             </div>
           </div>
@@ -101,7 +102,7 @@ const PreviewGallery = () => {
             <div className="content">
               <button
                 onClick={() => {
-                  setDataClicked(automotiveData);
+                  setDataClicked(birthdayData);
                   setIsAlbumClicked(true);
                 }}
               >
@@ -114,7 +115,7 @@ const PreviewGallery = () => {
             <div className="content">
               <button
                 onClick={() => {
-                  setDataClicked(automotiveData);
+                  setDataClicked(null);
                   setIsAlbumClicked(true);
                 }}
               >

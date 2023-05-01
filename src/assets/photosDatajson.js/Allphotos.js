@@ -25,6 +25,41 @@ import nb14 from "../../images/newbornimages/nb14.jpg";
 import nb15 from "../../images/newbornimages/nb15.jpg";
 import nb16 from "../../images/newbornimages/nb16.jpg";
 
+
+
+import hb1 from '../../images/birthdayimages/hb1.jpg'
+import hb2 from '../../images/birthdayimages/hb2.jpg'
+import hb3 from '../../images/birthdayimages/hb3.jpg'
+import hb4 from '../../images/birthdayimages/hb4.jpg'
+import hb5 from '../../images/birthdayimages/hb5.jpg'
+import hb6 from '../../images/birthdayimages/hb6.jpg'
+import hb7 from '../../images/birthdayimages/hb7.jpg'
+import hb8 from '../../images/birthdayimages/hb8.jpg'
+import hb9 from '../../images/birthdayimages/hb9.jpg'
+import hb10 from '../../images/birthdayimages/hb10.jpg'
+import hb11 from '../../images/birthdayimages/hb11.jpg'
+import hb12 from '../../images/birthdayimages/hb12.jpg'
+import hb13 from '../../images/birthdayimages/hb13.jpg'
+import hb14 from '../../images/birthdayimages/hb14.jpg'
+import hb16 from '../../images/birthdayimages/hb16.jpg'
+import hb17 from '../../images/birthdayimages/hb17.jpg'
+import hb19 from '../../images/birthdayimages/hb19.jpg'
+import hb20 from '../../images/birthdayimages/hb20.jpg'
+import hb21 from '../../images/birthdayimages/hb21.jpg'
+import hb22 from '../../images/birthdayimages/hb22.jpg'
+import hb23 from '../../images/birthdayimages/hb23.jpg'
+import hb24 from '../../images/birthdayimages/hb24.jpg'
+import hb25 from '../../images/birthdayimages/hb25.jpg'
+import hb26 from '../../images/birthdayimages/hb26.jpg'
+import hb27 from '../../images/birthdayimages/hb27.jpg'
+
+// export let comingSoonPic = [
+//   {
+//     id:1,
+//     imgSrc: comingSoon
+//   }
+// ]
+
 export let newbornData = [
   {
     id: 18,
@@ -89,6 +124,110 @@ export let newbornData = [
   {
     id: 33,
     imgSrc: nb16,
+  },
+];
+
+
+export let birthdayData = [
+  {
+    id: 1,
+    imgSrc: hb1,
+  },
+  {
+    id: 2,
+    imgSrc: hb2,
+  },
+  {
+    id: 3,
+    imgSrc: hb3,
+  },
+  {
+    id: 4,
+    imgSrc: hb4,
+  },
+  {
+    id: 5,
+    imgSrc: hb5,
+  },
+  {
+    id: 6,
+    imgSrc: hb6,
+  },
+  {
+    id: 7,
+    imgSrc: hb7,
+  },
+  {
+    id:8,
+    imgSrc: hb8,
+  },
+  {
+    id: 9,
+    imgSrc: hb9,
+  },
+  {
+    id: 10,
+    imgSrc: hb10,
+  },
+  {
+    id: 11,
+    imgSrc: hb11,
+  },
+  {
+    id: 12,
+    imgSrc: hb12,
+  },
+  {
+    id: 13,
+    imgSrc: hb13,
+  },
+  {
+    id: 14,
+    imgSrc: hb14,
+  },
+  {
+    id: 16,
+    imgSrc: hb16,
+  },
+  {
+    id: 17,
+    imgSrc: hb17,
+  },
+  {
+    id:19,
+    imgSrc: hb19,
+  },
+  {
+    id: 20,
+    imgSrc: hb20,
+  },
+  {
+    id: 21,
+    imgSrc: hb21,
+  },
+  {
+    id: 22,
+    imgSrc: hb22,
+  },
+  {
+    id: 23,
+    imgSrc: hb23,
+  },
+  {
+    id: 24,
+    imgSrc: hb24,
+  },
+  {
+    id: 25,
+    imgSrc: hb25,
+  },
+  {
+    id: 26,
+    imgSrc: hb26,
+  },
+  {
+    id: 27,
+    imgSrc: hb27,
   },
 ];
 

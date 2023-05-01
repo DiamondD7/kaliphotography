@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/Kali Photography-main.png";
+import logo from "../images/kaliLogo.png";
 import ImageSlider from "./ImageSlider";
 import one from "../images/sliderImages/one.jpg";
 import two from "../images/sliderImages/two.jpg";
