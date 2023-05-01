@@ -21,25 +21,43 @@ const Gallery = (props) => {
             <button>Couple</button>
           </li>
           <li>
-            <button>Traditional</button>
+            <button onClick={() => setData(null)}>Traditional</button>
+          </li>
+          <li>
+            <button onClick={() => setData(null)}>Family</button>
+          </li>
+          <li>
+            <button onClick={() => setData(null)}>Lifestyle</button>
+          </li>
+          <li>
+            <button onClick={() => setData(null)}>Maternity</button>
           </li>
           <li>
             <button onClick={() => setData(newbornData)}>Newborn</button>
           </li>
           <li>
-            <button onClick={() => setData(null)}>Weddings</button>
-          </li>
-          <li>
             <button onClick={() => setData(birthdayData)}>Birthdays</button>
           </li>
           <li>
-            <button>Sports</button>
+            <button onClick={() => setData(null)}>Weddings</button>
+          </li>
+          <li>
+            <button onClick={() => setData(null)}>Pets</button>
           </li>
           <li>
             <button onClick={() => setData(wildlifedata)}>Wildlife</button>
           </li>
           <li>
-            <button>Street</button>
+            <button onClick={() => setData(null)}>Landscape</button>
+          </li>
+          <li>
+            <button onClick={() => setData(null)}>Travel</button>
+          </li>
+          <li>
+            <button onClick={() => setData(null)}>Street</button>
+          </li>
+          <li>
+            <button onClick={() => setData(null)}>Sports</button>
           </li>
           <li>
             <button onClick={() => setData(automotiveData)}>Automotive</button>
