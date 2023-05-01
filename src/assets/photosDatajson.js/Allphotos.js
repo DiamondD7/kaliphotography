@@ -141,6 +141,22 @@ import lj12 from '../../images/laryjackimages/lj12.jpg'
 import lj13 from '../../images/laryjackimages/lj13.jpg'
 import lj14 from '../../images/laryjackimages/lj14.jpg'
 
+import sb1 from '../../images/sheenabenimages/sb1.jpg'
+import sb2 from '../../images/sheenabenimages/sb2.jpg'
+import sb3 from '../../images/sheenabenimages/sb3.jpg'
+import sb4 from '../../images/sheenabenimages/sb4.jpg'
+import sb5 from '../../images/sheenabenimages/sb5.jpg'
+import sb6 from '../../images/sheenabenimages/sb6.jpg'
+import sb7 from '../../images/sheenabenimages/sb7.jpg'
+import sb8 from '../../images/sheenabenimages/sb8.jpg'
+import sb9 from '../../images/sheenabenimages/sb9.jpg'
+import sb10 from '../../images/sheenabenimages/sb10.jpg'
+import sb11 from '../../images/sheenabenimages/sb11.jpg'
+import sb12 from '../../images/sheenabenimages/sb12.jpg'
+import sb13 from '../../images/sheenabenimages/sb13.jpg'
+import sb14 from '../../images/sheenabenimages/sb14.jpg'
+import sb15 from '../../images/sheenabenimages/sb15.jpg'
+
 
 export let newbornData = [
   {
@@ -548,6 +564,69 @@ export let laryjackData = [
   {
     id: 14,
     imgSrc: lj14,
+  },
+]
+
+export let sheenabenData = [
+  {
+    id: 1,
+    imgSrc: sb1,
+  },
+  {
+    id: 2,
+    imgSrc: sb2,
+  },
+  {
+    id: 3,
+    imgSrc: sb3,
+  },
+  {
+    id: 4,
+    imgSrc: sb4,
+  },
+  {
+    id: 5,
+    imgSrc: sb5,
+  },
+  {
+    id: 6,
+    imgSrc: sb6,
+  },
+  {
+    id: 7,
+    imgSrc: sb7,
+  },
+  {
+    id:8,
+    imgSrc: sb8,
+  },
+  {
+    id: 9,
+    imgSrc: sb9,
+  },
+  {
+    id: 10,
+    imgSrc: sb10,
+  },
+  {
+    id: 11,
+    imgSrc: sb11,
+  },
+  {
+    id: 12,
+    imgSrc: sb12,
+  },
+  {
+    id: 13,
+    imgSrc: sb13,
+  },
+  {
+    id: 14,
+    imgSrc: sb14,
+  },
+  {
+    id: 15,
+    imgSrc: sb15,
   },
 ]
 
