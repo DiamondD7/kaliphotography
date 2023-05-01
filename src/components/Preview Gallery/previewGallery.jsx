@@ -120,7 +120,7 @@ const PreviewGallery = () => {
                   setIsAlbumClicked(true);
                 }}
               >
-                Birthday
+                Event
               </button>
             </div>
           </div>

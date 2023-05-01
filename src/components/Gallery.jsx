@@ -99,7 +99,7 @@ const Gallery = (props) => {
                 setInCoupleAlbum(false);
               }}
             >
-              Birthdays
+              Event
             </button>
           </li>
 
