@@ -5,6 +5,8 @@ import {
   automotiveData,
   wildlifedata,
   birthdayData,
+  erinwayneData,
+  emmajonoData,
 } from "../assets/photosDatajson.js/Allphotos";
 import comingSoon from "../images/comingSoon.png";
 
@@ -15,7 +17,9 @@ const Gallery = (props) => {
   const [coupleAlbumClicked, setCoupleAlbumClicked] = useState(
     props.coupleCLicked
   );
+  const [inCoupleAlbum, setInCoupleAlbum] = useState(false);
 
+  console.log(data);
   return (
     <div className="gallery-main-container">
       <div className="album-lists-container">
@@ -24,6 +28,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setCoupleAlbumClicked(true);
+                setInCoupleAlbum(false);
               }}
             >
               Couple
@@ -34,6 +39,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Traditional
@@ -44,6 +50,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Family
@@ -54,6 +61,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Engagement
@@ -64,6 +72,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Maternity
@@ -74,6 +83,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(newbornData);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Newborn
@@ -84,6 +94,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(birthdayData);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Birthdays
@@ -95,6 +106,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Pets
@@ -105,6 +117,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(wildlifedata);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Wildlife
@@ -115,6 +128,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Landscape
@@ -125,6 +139,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Travel
@@ -135,6 +150,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Street
@@ -145,6 +161,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Sports
@@ -155,6 +172,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(automotiveData);
                 setCoupleAlbumClicked(false);
+                setInCoupleAlbum(false);
               }}
             >
               Automotive
@@ -168,8 +186,15 @@ const Gallery = (props) => {
           <div className="couple-albums__wrapper">
             <div className="erinwayne__wrapper">
               <div className="contents">
-                {/* setData(newbornData); */}
-                <button>Erin & Wayne</button>
+                <button
+                  onClick={() => {
+                    setData(erinwayneData);
+                    setCoupleAlbumClicked(false);
+                    setInCoupleAlbum(true);
+                  }}
+                >
+                  Erin & Wayne
+                </button>
               </div>
             </div>
 
@@ -180,10 +205,18 @@ const Gallery = (props) => {
               </div>
             </div>
 
-            <div className="erinwayne__wrapper">
+            <div className="emmajono__wrapper">
               <div className="contents">
                 {/* setData(newbornData); */}
-                <button>Emma & Jono</button>
+                <button
+                  onClick={() => {
+                    setData(emmajonoData);
+                    setCoupleAlbumClicked(false);
+                    setInCoupleAlbum(true);
+                  }}
+                >
+                  Emma & Jono
+                </button>
               </div>
             </div>
 
@@ -217,6 +250,16 @@ const Gallery = (props) => {
             </div>
           ) : (
             <div>
+              {inCoupleAlbum === true ? (
+                <button
+                  className="backbtncouplealbum"
+                  onClick={() => setCoupleAlbumClicked(true)}
+                >
+                  Back
+                </button>
+              ) : (
+                ""
+              )}
               <div>
                 {data.map((items) => (
                   <div key={items.id}>

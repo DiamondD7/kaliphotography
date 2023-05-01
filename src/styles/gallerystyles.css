@@ -65,8 +65,24 @@
 
     margin-top: 20px;
 
-    background-color: blue;
+    background-image: url(../images/erinwayneimages/ew44-thumbnail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
 }
+
+
+.emmajono__wrapper{
+    height: 200px;
+    width: 300px;
+
+    margin-top: 20px;
+
+    background-image: url(../images/emmajonoimages/ej-thumbnail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+} 
 
 .contents{
     padding-top: 29%;
@@ -80,4 +96,14 @@
     cursor: pointer;
 }
 
+
+.backbtncouplealbum{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    top: 15px;
+    left: 250px;
+}
 /* COUPLE ALBUM - END */
