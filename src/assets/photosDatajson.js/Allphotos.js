@@ -157,6 +157,56 @@ import sb13 from '../../images/sheenabenimages/sb13.jpg'
 import sb14 from '../../images/sheenabenimages/sb14.jpg'
 import sb15 from '../../images/sheenabenimages/sb15.jpg'
 
+import aid1 from '../../images/birthdayimages/Aidens/bday1.jpg'
+import aid2 from '../../images/birthdayimages/Aidens/bday2.jpg'
+import aid3 from '../../images/birthdayimages/Aidens/bday3.jpg'
+import aid4 from '../../images/birthdayimages/Aidens/bday4.jpg'
+import aid5 from '../../images/birthdayimages/Aidens/bday5.jpg'
+import aid6 from '../../images/birthdayimages/Aidens/bday6.jpg'
+import aid7 from '../../images/birthdayimages/Aidens/bday7.jpg'
+import aid8 from '../../images/birthdayimages/Aidens/bday8.jpg'
+import aid9 from '../../images/birthdayimages/Aidens/bday9.jpg'
+import aid10 from '../../images/birthdayimages/Aidens/bday10.jpg'
+import aid11 from '../../images/birthdayimages/Aidens/bday11.jpg'
+import aid12 from '../../images/birthdayimages/Aidens/bday12.jpg'
+import aid13 from '../../images/birthdayimages/Aidens/bday13.jpg'
+import aid14 from '../../images/birthdayimages/Aidens/bday14.jpg'
+import aid15 from '../../images/birthdayimages/Aidens/bday15.jpg'
+import aid16 from '../../images/birthdayimages/Aidens/bday16.jpg'
+import aid17 from '../../images/birthdayimages/Aidens/bday17.jpg'
+import aid18 from '../../images/birthdayimages/Aidens/bday18.jpg'
+import aid19 from '../../images/birthdayimages/Aidens/bday19.jpg'
+import aid20 from '../../images/birthdayimages/Aidens/bday20.jpg'
+import aid21 from '../../images/birthdayimages/Aidens/bday21.jpg'
+import aid22 from '../../images/birthdayimages/Aidens/bday22.jpg'
+import aid23 from '../../images/birthdayimages/Aidens/bday23.jpg'
+import aid24 from '../../images/birthdayimages/Aidens/bday24.jpg'
+import aid25 from '../../images/birthdayimages/Aidens/bday25.jpg'
+
+
+import kt1 from '../../images/familyimages/KT-fam/kt1.jpg'
+import kt2 from '../../images/familyimages/KT-fam/kt2.jpg'
+import kt3 from '../../images/familyimages/KT-fam/kt3.jpg'
+import kt4 from '../../images/familyimages/KT-fam/kt4.jpg'
+import kt5 from '../../images/familyimages/KT-fam/kt5.jpg'
+import kt6 from '../../images/familyimages/KT-fam/kt6.jpg'
+import kt7 from '../../images/familyimages/KT-fam/kt7.jpg'
+import kt8 from '../../images/familyimages/KT-fam/kt8.jpg'
+import kt9 from '../../images/familyimages/KT-fam/kt9.jpg'
+import kt10 from '../../images/familyimages/KT-fam/kt10.jpg'
+import kt11 from '../../images/familyimages/KT-fam/kt11.jpg'
+import kt12 from '../../images/familyimages/KT-fam/kt12.jpg'
+import kt13 from '../../images/familyimages/KT-fam/kt13.jpg'
+import kt14 from '../../images/familyimages/KT-fam/kt14.jpg'
+import kt15 from '../../images/familyimages/KT-fam/kt15.jpg'
+import kt16 from '../../images/familyimages/KT-fam/kt16.jpg'
+import kt17 from '../../images/familyimages/KT-fam/kt17.jpg'
+import kt18 from '../../images/familyimages/KT-fam/kt18.jpg'
+import kt19 from '../../images/familyimages/KT-fam/kt19.jpg'
+import kt20 from '../../images/familyimages/KT-fam/kt20.jpg'
+import kt21 from '../../images/familyimages/KT-fam/kt21.jpg'
+import kt22 from '../../images/familyimages/KT-fam/kt22.jpg'
+
 
 export let newbornData = [
   {
@@ -223,6 +273,202 @@ export let newbornData = [
     id: 33,
     imgSrc: nb16,
   },
+];
+
+export let ktData = [
+  {
+    id: 1,
+    imgSrc: kt1,
+  },
+  {
+    id: 2,
+    imgSrc: kt2,
+  },
+  {
+    id: 3,
+    imgSrc: kt3,
+  },
+  {
+    id: 4,
+    imgSrc: kt4,
+  },
+  {
+    id: 5,
+    imgSrc: kt5,
+  },
+  {
+    id: 6,
+    imgSrc: kt6,
+  },
+  {
+    id: 7,
+    imgSrc: kt7,
+  },
+  {
+    id:8,
+    imgSrc: kt8,
+  },
+  {
+    id: 9,
+    imgSrc: kt9,
+  },
+  {
+    id: 10,
+    imgSrc: kt10,
+  },
+  {
+    id: 11,
+    imgSrc: kt11,
+  },
+  {
+    id: 12,
+    imgSrc: kt12,
+  },
+  {
+    id: 13,
+    imgSrc: kt13,
+  },
+  {
+    id: 14,
+    imgSrc: kt14,
+  },
+  {
+    id:15,
+    imgSrc:kt15,
+  },
+  {
+    id: 16,
+    imgSrc: kt16,
+  },
+  {
+    id: 17,
+    imgSrc: kt17,
+  },
+  {
+    id:18,
+    imgSrc: kt18
+  },
+  {
+    id:19,
+    imgSrc: kt19,
+  },
+  {
+    id: 20,
+    imgSrc: kt20,
+  },
+  {
+    id: 21,
+    imgSrc: kt21,
+  },
+  {
+    id: 22,
+    imgSrc: kt22,
+  },
+
+];
+
+
+export let aidenData = [
+  {
+    id: 1,
+    imgSrc: aid1,
+  },
+  {
+    id: 2,
+    imgSrc: aid2,
+  },
+  {
+    id: 3,
+    imgSrc: aid3,
+  },
+  {
+    id: 4,
+    imgSrc: aid4,
+  },
+  {
+    id: 5,
+    imgSrc: aid5,
+  },
+  {
+    id: 6,
+    imgSrc: aid6,
+  },
+  {
+    id: 7,
+    imgSrc: aid7,
+  },
+  {
+    id:8,
+    imgSrc: aid8,
+  },
+  {
+    id: 9,
+    imgSrc: aid9,
+  },
+  {
+    id: 10,
+    imgSrc: aid10,
+  },
+  {
+    id: 11,
+    imgSrc: aid11,
+  },
+  {
+    id: 12,
+    imgSrc: aid12,
+  },
+  {
+    id: 13,
+    imgSrc: aid13,
+  },
+  {
+    id: 14,
+    imgSrc: aid14,
+  },
+  {
+    id:15,
+    imgSrc:aid15,
+  },
+  {
+    id: 16,
+    imgSrc: aid16,
+  },
+  {
+    id: 17,
+    imgSrc: aid17,
+  },
+  {
+    id:18,
+    imgSrc: aid18
+  },
+  {
+    id:19,
+    imgSrc: aid19,
+  },
+  {
+    id: 20,
+    imgSrc: aid20,
+  },
+  {
+    id: 21,
+    imgSrc: aid21,
+  },
+  {
+    id: 22,
+    imgSrc: aid22,
+  },
+  {
+    id: 23,
+    imgSrc: aid23,
+  },
+  {
+    id: 24,
+    imgSrc: aid24,
+  },
+  {
+    id: 25,
+    imgSrc: aid25,
+  }
 ];
 
 

@@ -12,11 +12,9 @@ const PreviewGallery = () => {
   const [dataClicked, setDataClicked] = useState([]);
   const [isAlbumClicked, setIsAlbumClicked] = useState(false);
   const [coupleCLicked, setCoupleClicked] = useState(false);
+  const [eventClicked, setEventClicked] = useState(false);
+  const [familyClicked, setFamilyClicked] = useState(false);
 
-  const albumClicked = () => {
-    setDataClicked(newbornData);
-    setIsAlbumClicked(true);
-  };
   return (
     <div>
       {isAlbumClicked === false ? (
@@ -51,7 +49,7 @@ const PreviewGallery = () => {
             <div className="content">
               <button
                 onClick={() => {
-                  setDataClicked(automotiveData);
+                  setFamilyClicked(true);
                   setIsAlbumClicked(true);
                 }}
               >
@@ -90,7 +88,7 @@ const PreviewGallery = () => {
             <div className="content">
               <button
                 onClick={() => {
-                  setDataClicked(newbornData);
+                  setDataClicked(null);
                   setIsAlbumClicked(true);
                 }}
               >
@@ -116,8 +114,9 @@ const PreviewGallery = () => {
             <div className="content">
               <button
                 onClick={() => {
-                  setDataClicked(birthdayData);
+                  // setDataClicked(birthdayData);
                   setIsAlbumClicked(true);
+                  setEventClicked(true);
                 }}
               >
                 Event
@@ -217,7 +216,12 @@ const PreviewGallery = () => {
           </div>
         </div>
       ) : (
-        <Gallery dataPassed={dataClicked} coupleCLicked={coupleCLicked} />
+        <Gallery
+          dataPassed={dataClicked}
+          coupleCLicked={coupleCLicked}
+          eventClicked={eventClicked}
+          familyClicked={familyClicked}
+        />
       )}
     </div>
   );
