@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
-  allData,
   newbornData,
   automotiveData,
   wildlifedata,
@@ -11,6 +10,7 @@ import {
   sheenabenData,
   aidenData,
   ktData,
+  banishathomasData,
 } from "../assets/photosDatajson.js/Allphotos";
 import comingSoon from "../images/comingSoon.png";
 
@@ -33,7 +33,10 @@ const Gallery = (props) => {
   );
   const [inFamilyAlbum, setInFamilyAlbum] = useState(false);
 
-  console.log(data);
+  const [engagementAlbumClicked, setEngagementAlbumClicked] = useState(
+    props.engagementClicked
+  );
+  const [inEngagementAlbum, setInEngagementAlbum] = useState(false);
   return (
     <div className="gallery-main-container">
       <div className="album-lists-container">
@@ -43,6 +46,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setCoupleAlbumClicked(true);
                 setEventAlbumClicked(false);
+                setEngagementAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setInCoupleAlbum(false);
                 setInFamilyAlbum(false);
@@ -56,6 +60,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setEngagementAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setInCoupleAlbum(false);
@@ -69,6 +74,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setFamilyAlbumClicked(true);
                 setCoupleAlbumClicked(false);
+                setEngagementAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInEventAlbum(false);
                 setInCoupleAlbum(false);
@@ -80,7 +86,7 @@ const Gallery = (props) => {
           <li>
             <button
               onClick={() => {
-                setData(null);
+                setEngagementAlbumClicked(true);
                 setCoupleAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setFamilyAlbumClicked(false);
@@ -94,6 +100,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(null);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
@@ -107,6 +114,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(newbornData);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
@@ -120,6 +128,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setEventAlbumClicked(true);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setInEventAlbum(false);
               }}
@@ -132,6 +141,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(null);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setFamilyAlbumClicked(false);
@@ -145,6 +155,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(wildlifedata);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
@@ -158,6 +169,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(null);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
@@ -171,6 +183,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(null);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
@@ -184,6 +197,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(null);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
@@ -197,6 +211,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(null);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
@@ -210,6 +225,7 @@ const Gallery = (props) => {
             <button
               onClick={() => {
                 setData(automotiveData);
+                setEngagementAlbumClicked(false);
                 setCoupleAlbumClicked(false);
                 setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
@@ -241,12 +257,6 @@ const Gallery = (props) => {
               </div>
             </div>
 
-            <div className="erinwayne__wrapper">
-              <div className="contents">
-                <button>Banisha & Thomas</button>
-              </div>
-            </div>
-
             <div className="emmajono__wrapper">
               <div className="contents">
                 <button
@@ -263,6 +273,22 @@ const Gallery = (props) => {
               </div>
             </div>
 
+            <div className="banishathomas__wrapper">
+              <div className="contents">
+                <button
+                  onClick={() => {
+                    setData(banishathomasData);
+                    setCoupleAlbumClicked(false);
+                    setEventAlbumClicked(false);
+                    setFamilyAlbumClicked(false);
+                    setInCoupleAlbum(true);
+                  }}
+                >
+                  Banisha & Thomas
+                </button>
+              </div>
+            </div>
+
             <div className="laryjack__wrapper">
               <div className="contents">
                 <button
@@ -275,24 +301,6 @@ const Gallery = (props) => {
                   }}
                 >
                   Lary & Jack
-                </button>
-              </div>
-            </div>
-
-            <div className="sheenaben__wrapper">
-              <div className="contents">
-                {/* setData(newbornData); */}
-                <button
-                  onClick={() => {
-                    setData(sheenabenData);
-                    setCoupleAlbumClicked(false);
-                    setEventAlbumClicked(false);
-                    setInEventAlbum(false);
-                    setFamilyAlbumClicked(false);
-                    setInCoupleAlbum(true);
-                  }}
-                >
-                  Sheena & Ben
                 </button>
               </div>
             </div>
@@ -361,6 +369,26 @@ const Gallery = (props) => {
             </div>
           </div>
         </div>
+      ) : engagementAlbumClicked === true ? (
+        <div className="engagement-albums__wrapper">
+          <div className="sheenaben__wrapper">
+            <div className="contents">
+              <button
+                onClick={() => {
+                  setData(sheenabenData);
+                  setCoupleAlbumClicked(false);
+                  setEventAlbumClicked(false);
+                  setInEventAlbum(false);
+                  setFamilyAlbumClicked(false);
+                  setEngagementAlbumClicked(false);
+                  setInEngagementAlbum(true);
+                }}
+              >
+                Sheena & Ben
+              </button>
+            </div>
+          </div>
+        </div>
       ) : (
         <div className="gallery">
           {data === null ? (
@@ -371,7 +399,8 @@ const Gallery = (props) => {
             <div>
               {inCoupleAlbum === true ||
               inEventAlbum === true ||
-              inFamilyAlbum === true ? (
+              inFamilyAlbum === true ||
+              inEngagementAlbum === true ? (
                 <button
                   className="backbtncouplealbum"
                   onClick={() => {
@@ -379,8 +408,10 @@ const Gallery = (props) => {
                       setCoupleAlbumClicked(true);
                     } else if (inEventAlbum === true) {
                       setEventAlbumClicked(true);
-                    } else {
+                    } else if (inFamilyAlbum === true) {
                       setFamilyAlbumClicked(true);
+                    } else {
+                      setEngagementAlbumClicked(true);
                     }
                   }}
                 >
@@ -392,7 +423,11 @@ const Gallery = (props) => {
               <div>
                 {data.map((items) => (
                   <div key={items.id}>
-                    <img src={items.imgSrc} style={{ width: "100%" }} />
+                    <img
+                      alt="picture-data"
+                      src={items.imgSrc}
+                      style={{ width: "100%" }}
+                    />
                   </div>
                 ))}
               </div>

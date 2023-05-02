@@ -80,6 +80,27 @@
 }
 
 
+.banishathomas__wrapper{
+    height: 200px;
+    width: 300px;
+
+    margin-top: 20px;
+
+    background-image: url(../images/banishathomasimages/bt-thumbnail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.banishathomas__wrapper:hover > .contents{
+    height: 185px;
+    width: 300px;
+    margin-top: 8px;
+    padding-top: 26.3%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+}
+
+
 .emmajono__wrapper{
     height: 200px;
     width: 300px;
@@ -251,3 +272,14 @@
 
 
 /* FAMILY ALBUM-END */
+
+
+
+/* ENGAGEMENT ALBUM - START */
+
+.engagement-albums__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+}
+
+/* ENGAGEMENT ALBUM - END */

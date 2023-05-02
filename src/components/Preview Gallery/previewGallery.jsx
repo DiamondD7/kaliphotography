@@ -14,6 +14,7 @@ const PreviewGallery = () => {
   const [coupleCLicked, setCoupleClicked] = useState(false);
   const [eventClicked, setEventClicked] = useState(false);
   const [familyClicked, setFamilyClicked] = useState(false);
+  const [engagementClicked, setEngagementClicked] = useState(false);
 
   return (
     <div>
@@ -62,8 +63,8 @@ const PreviewGallery = () => {
             <div className="content">
               <button
                 onClick={() => {
-                  setDataClicked(null);
                   setIsAlbumClicked(true);
+                  setEngagementClicked(true);
                 }}
               >
                 Engagement
@@ -221,6 +222,7 @@ const PreviewGallery = () => {
           coupleCLicked={coupleCLicked}
           eventClicked={eventClicked}
           familyClicked={familyClicked}
+          engagementClicked={engagementClicked}
         />
       )}
     </div>

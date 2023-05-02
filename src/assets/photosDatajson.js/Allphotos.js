@@ -207,6 +207,33 @@ import kt20 from '../../images/familyimages/KT-fam/kt20.jpg'
 import kt21 from '../../images/familyimages/KT-fam/kt21.jpg'
 import kt22 from '../../images/familyimages/KT-fam/kt22.jpg'
 
+import bt1 from '../../images/banishathomasimages/bt1.jpg'
+import bt2 from '../../images/banishathomasimages/bt2.jpg'
+import bt3 from '../../images/banishathomasimages/bt3.jpg'
+import bt4 from '../../images/banishathomasimages/bt4.jpg'
+import bt5 from '../../images/banishathomasimages/bt5.jpg'
+import bt6 from '../../images/banishathomasimages/bt6.jpg'
+import bt7 from '../../images/banishathomasimages/bt7.jpg'
+import bt8 from '../../images/banishathomasimages/bt8.jpg'
+import bt9 from '../../images/banishathomasimages/bt9.jpg'
+import bt10 from '../../images/banishathomasimages/bt10.jpg'
+import bt11 from '../../images/banishathomasimages/bt11.jpg'
+import bt12 from '../../images/banishathomasimages/bt12.jpg'
+import bt13 from '../../images/banishathomasimages/bt13.jpg'
+import bt14 from '../../images/banishathomasimages/bt14.jpg'
+import bt15 from '../../images/banishathomasimages/bt15.jpg'
+import bt16 from '../../images/banishathomasimages/bt16.jpg'
+import bt17 from '../../images/banishathomasimages/bt17.jpg'
+import bt18 from '../../images/banishathomasimages/bt18.jpg'
+import bt19 from '../../images/banishathomasimages/bt19.jpg'
+import bt20 from '../../images/banishathomasimages/bt20.jpg'
+import bt21 from '../../images/banishathomasimages/bt21.jpg'
+import bt22 from '../../images/banishathomasimages/bt22.jpg'
+import bt23 from '../../images/banishathomasimages/bt23.jpg'
+import bt24 from '../../images/banishathomasimages/bt24.jpg'
+import bt25 from '../../images/banishathomasimages/bt25.jpg'
+import bt26 from '../../images/banishathomasimages/bt26.jpg'
+
 
 export let newbornData = [
   {
@@ -367,6 +394,112 @@ export let ktData = [
 
 ];
 
+export let banishathomasData = [
+  {
+    id: 1,
+    imgSrc: bt1,
+  },
+  {
+    id: 2,
+    imgSrc: bt2,
+  },
+  {
+    id: 3,
+    imgSrc: bt3,
+  },
+  {
+    id: 4,
+    imgSrc: bt4,
+  },
+  {
+    id: 5,
+    imgSrc: bt5,
+  },
+  {
+    id: 6,
+    imgSrc: bt6,
+  },
+  {
+    id: 7,
+    imgSrc: bt7,
+  },
+  {
+    id:8,
+    imgSrc: bt8,
+  },
+  {
+    id: 9,
+    imgSrc: bt9,
+  },
+  {
+    id: 10,
+    imgSrc: bt10,
+  },
+  {
+    id: 11,
+    imgSrc: bt11,
+  },
+  {
+    id: 12,
+    imgSrc: bt12,
+  },
+  {
+    id: 13,
+    imgSrc: bt13,
+  },
+  {
+    id: 14,
+    imgSrc: bt14,
+  },
+  {
+    id:15,
+    imgSrc:bt15,
+  },
+  {
+    id: 16,
+    imgSrc: bt16,
+  },
+  {
+    id: 17,
+    imgSrc: bt17,
+  },
+  {
+    id:18,
+    imgSrc: bt18
+  },
+  {
+    id:19,
+    imgSrc: bt19,
+  },
+  {
+    id: 20,
+    imgSrc: bt20,
+  },
+  {
+    id: 21,
+    imgSrc: bt21,
+  },
+  {
+    id: 22,
+    imgSrc: bt22,
+  },
+  {
+    id: 23,
+    imgSrc: bt23,
+  },
+  {
+    id: 24,
+    imgSrc: bt24,
+  },
+  {
+    id: 25,
+    imgSrc: bt25,
+  },
+  {
+    id: 26,
+    imgSrc: bt26,
+  }
+];
 
 export let aidenData = [
   {
