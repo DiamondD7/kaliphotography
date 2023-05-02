@@ -11,6 +11,7 @@ import {
   aidenData,
   ktData,
   banishathomasData,
+  tiaraaaronData,
 } from "../assets/photosDatajson.js/Allphotos";
 import comingSoon from "../images/comingSoon.png";
 
@@ -305,10 +306,19 @@ const Gallery = (props) => {
               </div>
             </div>
 
-            <div className="erinwayne__wrapper">
+            <div className="tiaraaaron__wrapper">
               <div className="contents">
-                {/* setData(newbornData); */}
-                <button>Tiara & Aaron</button>
+                <button
+                  onClick={() => {
+                    setData(tiaraaaronData);
+                    setCoupleAlbumClicked(false);
+                    setEventAlbumClicked(false);
+                    setFamilyAlbumClicked(false);
+                    setInCoupleAlbum(true);
+                  }}
+                >
+                  Tiara & Aaron
+                </button>
               </div>
             </div>
           </div>

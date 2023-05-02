@@ -234,6 +234,14 @@ import bt24 from '../../images/banishathomasimages/bt24.jpg'
 import bt25 from '../../images/banishathomasimages/bt25.jpg'
 import bt26 from '../../images/banishathomasimages/bt26.jpg'
 
+import at1 from '../../images/tiaraaaronimages/at1.jpg'
+import at2 from '../../images/tiaraaaronimages/at2.jpg'
+import at3 from '../../images/tiaraaaronimages/at3.jpg'
+import at4 from '../../images/tiaraaaronimages/at4.jpg'
+import at5 from '../../images/tiaraaaronimages/at5.jpg'
+import at6 from '../../images/tiaraaaronimages/at6.jpg'
+import at7 from '../../images/tiaraaaronimages/at7.jpg'
+
 
 export let newbornData = [
   {
@@ -301,6 +309,39 @@ export let newbornData = [
     imgSrc: nb16,
   },
 ];
+
+export let tiaraaaronData = [
+  {
+    id: 1,
+    imgSrc: at1,
+  },
+  {
+    id: 2,
+    imgSrc: at2,
+  },
+  {
+    id: 3,
+    imgSrc: at3,
+  },
+  {
+    id: 4,
+    imgSrc: at4,
+  },
+  {
+    id: 5,
+    imgSrc: at5,
+  },
+  {
+    id: 6,
+    imgSrc: at6,
+  },
+  {
+    id: 7,
+    imgSrc: at7,
+  },
+
+];
+
 
 export let ktData = [
   {
