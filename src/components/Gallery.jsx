@@ -43,7 +43,9 @@ const Gallery = (props) => {
               onClick={() => {
                 setCoupleAlbumClicked(true);
                 setEventAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setInCoupleAlbum(false);
+                setInFamilyAlbum(false);
               }}
             >
               Couple
@@ -55,6 +57,7 @@ const Gallery = (props) => {
                 setData(null);
                 setCoupleAlbumClicked(false);
                 setEventAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
             >
@@ -80,6 +83,7 @@ const Gallery = (props) => {
                 setData(null);
                 setCoupleAlbumClicked(false);
                 setEventAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
             >
@@ -91,6 +95,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
@@ -103,6 +108,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(newbornData);
                 setCoupleAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
@@ -128,6 +134,7 @@ const Gallery = (props) => {
                 setData(null);
                 setCoupleAlbumClicked(false);
                 setEventAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
             >
@@ -139,6 +146,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(wildlifedata);
                 setCoupleAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
@@ -151,6 +159,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
@@ -163,6 +172,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
@@ -175,6 +185,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
@@ -187,6 +198,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(null);
                 setCoupleAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
@@ -199,6 +211,7 @@ const Gallery = (props) => {
               onClick={() => {
                 setData(automotiveData);
                 setCoupleAlbumClicked(false);
+                setFamilyAlbumClicked(false);
                 setEventAlbumClicked(false);
                 setInCoupleAlbum(false);
               }}
@@ -219,6 +232,7 @@ const Gallery = (props) => {
                     setData(erinwayneData);
                     setCoupleAlbumClicked(false);
                     setEventAlbumClicked(false);
+                    setFamilyAlbumClicked(false);
                     setInCoupleAlbum(true);
                   }}
                 >
@@ -240,6 +254,7 @@ const Gallery = (props) => {
                     setData(emmajonoData);
                     setCoupleAlbumClicked(false);
                     setEventAlbumClicked(false);
+                    setFamilyAlbumClicked(false);
                     setInCoupleAlbum(true);
                   }}
                 >
@@ -255,6 +270,7 @@ const Gallery = (props) => {
                     setData(laryjackData);
                     setCoupleAlbumClicked(false);
                     setEventAlbumClicked(false);
+                    setFamilyAlbumClicked(false);
                     setInCoupleAlbum(true);
                   }}
                 >
@@ -272,6 +288,7 @@ const Gallery = (props) => {
                     setCoupleAlbumClicked(false);
                     setEventAlbumClicked(false);
                     setInEventAlbum(false);
+                    setFamilyAlbumClicked(false);
                     setInCoupleAlbum(true);
                   }}
                 >
@@ -298,6 +315,7 @@ const Gallery = (props) => {
                   setData(birthdayData);
                   setEventAlbumClicked(false);
                   setCoupleAlbumClicked(false);
+                  setFamilyAlbumClicked(false);
                   setInEventAlbum(true);
                 }}
               >
@@ -314,6 +332,7 @@ const Gallery = (props) => {
                   setData(aidenData);
                   setEventAlbumClicked(false);
                   setCoupleAlbumClicked(false);
+                  setFamilyAlbumClicked(false);
                   setInEventAlbum(true);
                 }}
               >
