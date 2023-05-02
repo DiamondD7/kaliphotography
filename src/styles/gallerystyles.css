@@ -203,9 +203,10 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    font-size: 15px;
 
     position: absolute;
-    top: 15px;
+    top: 18px;
     left: 250px;
 }
 /* COUPLE ALBUM - END */
