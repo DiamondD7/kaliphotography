@@ -39,12 +39,14 @@ const App = () => {
       envClose.addEventListener('mouseenter', function (){
         envOpen.style.display = 'block';
         envClose.style.display = 'none';
+        envOpen.style.cursor = 'pointer';
         
       })
 
-      envClose.addEventListener('mouseleave', function (){
+      envOpen.addEventListener('mouseleave', function (){
         envClose.style.display = 'block';
         envOpen.style.display = 'none';
+        envClose.style.cursor = 'pointer';
       })
 
     },[])
