@@ -267,3 +267,32 @@ body{
 }
 
 /* ----------------------------------------- */
+
+
+
+/* NAV */
+
+.phonenumber__wrapper{
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    display: none;
+}
+
+.phonenumber__text{
+    background-color: #202020;
+    height: 26px;
+    padding: 3px 10px;
+    color: #f3f3f3;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+.envOpen-Icon{
+    display: none;
+}
+/*  */
