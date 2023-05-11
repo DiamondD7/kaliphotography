@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import Home from './components/Home';
-import { MapPin, Phone, InstagramLogo, Envelope, EnvelopeOpen } from "phosphor-react";
+import { Phone, InstagramLogo, Envelope, EnvelopeOpen } from "phosphor-react";
 import About from './components/About';
 import Gallery from './components/Gallery';
 import PreviewGallery from './components/Preview Gallery/previewGallery';
@@ -100,9 +100,6 @@ const App = () => {
             </li>
             <li id='envClose'>
               <Envelope size={25} color={"#202020"}/>
-            </li>
-            <li>
-              <MapPin size={25} color={"#202020"} />
             </li>
           </ul>
         </div>
