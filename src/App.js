@@ -4,6 +4,7 @@ import { Phone, InstagramLogo, Envelope, EnvelopeOpen } from "phosphor-react";
 import About from './components/About';
 import Gallery from './components/Gallery';
 import PreviewGallery from './components/Preview Gallery/previewGallery';
+import Testimonials from './components/Testimonials/Testimonials';
 const App = () => {
     let component;
     switch(window.location.pathname){
@@ -15,6 +16,9 @@ const App = () => {
             break;
         case "/previewGallery":
           component = <PreviewGallery/>;
+          break;
+        case '/testimonials':
+          component = <Testimonials/>
           break;
         default: 
         console.log("Error in te switch statement");
@@ -73,7 +77,7 @@ const App = () => {
               <button className="nav-btns"><a href='/previewGallery'>Gallery</a></button>
             </li>
             <li>
-              <button className="nav-btns">Testimonials</button>
+              <button className="nav-btns"><a href='/testimonials'>Testimonials</a></button>
             </li>
             <li>
               <button className="nav-btns">Pricing</button>
