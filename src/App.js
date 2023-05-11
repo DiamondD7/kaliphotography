@@ -73,6 +73,9 @@ const App = () => {
               <button className="nav-btns"><a href='/previewGallery'>Gallery</a></button>
             </li>
             <li>
+              <button className="nav-btns">Testimonials</button>
+            </li>
+            <li>
               <button className="nav-btns">Pricing</button>
             </li>
             <li>
