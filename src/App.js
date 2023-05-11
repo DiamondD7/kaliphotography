@@ -27,6 +27,8 @@ const App = () => {
 
       const envOpen = document.getElementById('envOpen');
       const envClose = document.getElementById('envClose');
+
+      const email = document.getElementById('email');
       
       phoneIcon.addEventListener('mouseenter', function() {
         contactNumber.style.display = 'block';
@@ -40,6 +42,7 @@ const App = () => {
         envOpen.style.display = 'block';
         envClose.style.display = 'none';
         envOpen.style.cursor = 'pointer';
+        email.style.display = 'block';
         
       })
 
@@ -47,6 +50,7 @@ const App = () => {
         envClose.style.display = 'block';
         envOpen.style.display = 'none';
         envClose.style.cursor = 'pointer';
+        email.style.display = 'none';
       })
 
     },[])
@@ -77,6 +81,10 @@ const App = () => {
           </ul>
           <div className='phonenumber__wrapper' id='contactNumber'>
             <p className='phonenumber__text'>+642102775992</p>
+          </div>
+
+          <div className='email__wrapper' id='email'>
+            <p className='email__text'>kali.photography7@gmail.com</p>
           </div>
           <ul className="social-ul">
             <li id='phoneIcon'>

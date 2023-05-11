@@ -275,15 +275,31 @@ body{
 .phonenumber__wrapper{
     position: absolute;
     bottom: 30px;
-    right: 80px;
+    right: 100px;
     display: none;
 }
 
 .phonenumber__text{
     background-color: #202020;
-    height: 26px;
     padding: 3px 10px;
     color: #f3f3f3;
+    font-size: 12px;
+}
+
+
+.email__wrapper{
+    position: absolute;
+    bottom: 30px;
+    right: -40px;
+    display: none;
+}
+
+.email__text{
+    background-color: #202020;
+    padding: 3px 10px;
+    color: #f3f3f3;
+
+    font-size: 12px;
 }
 
 
