@@ -1,6 +1,7 @@
     .testimonials__wrapper{
-        margin:100px 0 100px 360px;
+        margin:100px 0 100px 0;
         display: flex;
+        overflow: hidden;
     }
 
 
@@ -21,7 +22,7 @@
 
         /* margin-top: -195px;
         margin-left: 60px; */
-        
+
         margin-top: -155px;
         margin-left: 100px;
         width: 400px;
@@ -42,5 +43,28 @@
 
 
     .marLeft{
-        margin-left: 280px;
+        margin-left: 350px;
+    }
+
+
+    /* ADD AFTER ALL TESTIMONIALS */
+
+    @keyframes slowToTheRight{
+        0%{
+            transform: translateX(10%);
+        }
+        100%{
+            transform: translateX(-510.8%);
+        }
+    }
+
+    .testimonials__wrapper .testimonial__wrapper{
+        animation: slowToTheRight 60s linear infinite;
+        
+        
+    }
+    
+    .testimonials__wrapper:hover .testimonial__wrapper{
+        animation-play-state: paused;
+        
     }
