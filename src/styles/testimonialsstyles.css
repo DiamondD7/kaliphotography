@@ -1,0 +1,13 @@
+    .testimonials__wrapper{
+        margin:100px 0 100px 360px;
+    }
+
+
+    .first-testimonial__wrapper{
+        display: flex;
+    }
+
+    .erinwayne_statement{
+        width: 500px;
+        padding-left: 50px;
+    }
