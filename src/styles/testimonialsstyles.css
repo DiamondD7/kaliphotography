@@ -1,19 +1,27 @@
     .testimonials__wrapper{
         margin:100px 0 100px 360px;
-    }
-
-
-    .first-testimonial__wrapper{
         display: flex;
     }
 
-    .erinwayne_statement{
+
+    .testimonial__wrapper{
+        display: flex;
+    }
+
+    .client_statement{
         width: 500px;
         padding-left: 50px;
+        line-height: 1.6;
     }
 
     .nameslogo{
-        position: absolute;
-        bottom:-100px;
-        right: 200px;
+        /* position: absolute;
+        top:205px;
+        right: 250px; */
+        margin-top: -195px;
+        margin-left: 60px;
+    }
+
+    .marLeft{
+        margin-left: 250px;
     }
