@@ -11,3 +11,9 @@
         width: 500px;
         padding-left: 50px;
     }
+
+    .nameslogo{
+        position: absolute;
+        bottom:-100px;
+        right: 200px;
+    }

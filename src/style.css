@@ -275,7 +275,7 @@ body{
 .phonenumber__wrapper{
     position: absolute;
     bottom: 30px;
-    right: 100px;
+    right: 55px;
     display: none;
 }
 
@@ -290,7 +290,7 @@ body{
 .email__wrapper{
     position: absolute;
     bottom: 30px;
-    right: -40px;
+    right: -80px;
     display: none;
 }
 
