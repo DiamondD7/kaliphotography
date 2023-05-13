@@ -18,10 +18,29 @@
         /* position: absolute;
         top:205px;
         right: 250px; */
-        margin-top: -195px;
-        margin-left: 60px;
+
+        /* margin-top: -195px;
+        margin-left: 60px; */
+        
+        margin-top: -155px;
+        margin-left: 100px;
+        width: 400px;
     }
 
+    .banishanameslogo{
+        margin-top: -155px;
+        margin-left: 150px;
+        width: 400px;
+    }
+
+
+    .thomasnameslogo{
+        margin-top: -155px;
+        margin-left: 150px;
+        width: 400px;
+    }
+
+
     .marLeft{
-        margin-left: 250px;
+        margin-left: 280px;
     }

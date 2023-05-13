@@ -5,6 +5,10 @@ import ErinWayneNameLogo from "../../images/testimonialimages/erinwayne.png";
 import EmmaJono from "../../images/emmajonoimages/ej2.jpg";
 import EmmaJonoNameLogo from "../../images/testimonialimages/emmajono.png";
 
+import BanishaThomas from "../../images/banishathomasimages/bt18.jpg";
+import BanishaNameLogo from "../../images/testimonialimages/banisha.png";
+import ThomasNameLogo from "../../images/testimonialimages/thomas.png";
+
 import "../../styles/testimonialsstyles.css";
 
 const Testimonials = () => {
@@ -71,6 +75,45 @@ const Testimonials = () => {
               className="nameslogo"
               src={EmmaJonoNameLogo}
               alt="emmajononames"
+            />
+          </div>
+        </div>
+
+        <div className="testimonial__wrapper marLeft">
+          <div
+            className="testimonial-one"
+            style={{
+              backgroundImage: `url(${BanishaThomas})`,
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              height: "700px",
+              width: "700px",
+              filter: "blur(.5px)",
+            }}
+          ></div>
+          <div>
+            <p className="client_statement">
+              "My experience working with Tiara was amazing! She was so
+              professional and sweet, ensuring that my comfort was always
+              prioritised. I am also so in love with how pictures came out!
+              She’s absolutely incredible."
+            </p>
+            <img
+              className="banishanameslogo"
+              src={BanishaNameLogo}
+              alt="banishaname"
+            />
+
+            <p className="client_statement">
+              "It was very good shooting with Kali. She was very professional
+              and accommodating. She directed us with ease and made us feel like
+              actual models!"
+            </p>
+            <img
+              className="thomasnameslogo"
+              src={ThomasNameLogo}
+              alt="thomasname"
             />
           </div>
         </div>
