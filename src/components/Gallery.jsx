@@ -410,6 +410,7 @@ const Gallery = (props) => {
                       alt="picture-data"
                       src={items.imgSrc}
                       style={{ width: "100%" }}
+                      loading="lazy"
                     />
                   </div>
                 ))}
