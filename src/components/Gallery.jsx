@@ -194,34 +194,7 @@ const Gallery = (props) => {
               Travel
             </button>
           </li>
-          <li>
-            <button
-              onClick={() => {
-                setData(null);
-                setEngagementAlbumClicked(false);
-                setCoupleAlbumClicked(false);
-                setFamilyAlbumClicked(false);
-                setEventAlbumClicked(false);
-                setInCoupleAlbum(false);
-              }}
-            >
-              Street
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setData(null);
-                setEngagementAlbumClicked(false);
-                setCoupleAlbumClicked(false);
-                setFamilyAlbumClicked(false);
-                setEventAlbumClicked(false);
-                setInCoupleAlbum(false);
-              }}
-            >
-              Sports
-            </button>
-          </li>
+
           <li>
             <button
               onClick={() => {
