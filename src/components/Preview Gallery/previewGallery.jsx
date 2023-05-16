@@ -176,32 +176,6 @@ const PreviewGallery = () => {
             </div>
           </div>
 
-          <div className="preview-container-street">
-            <div className="content">
-              <button
-                onClick={() => {
-                  setDataClicked(automotiveData);
-                  setIsAlbumClicked(true);
-                }}
-              >
-                Street
-              </button>
-            </div>
-          </div>
-
-          <div className="preview-container-sports">
-            <div className="content">
-              <button
-                onClick={() => {
-                  setDataClicked(automotiveData);
-                  setIsAlbumClicked(true);
-                }}
-              >
-                Sports
-              </button>
-            </div>
-          </div>
-
           <div className="preview-container-automotive">
             <div className="content">
               <button

@@ -320,7 +320,7 @@
 .preview-container-landscape{
     width: 300px;
     height: 300px;
-    background-image:url(../images/landscape-thumbnail.JPG);
+    background-image:url(../images/landscape-thumbnail.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; 
@@ -350,7 +350,7 @@
 .preview-container-travel{
     width: 300px;
     height: 300px;
-    background-image:url(../images/travel-thumbnail.JPG);
+    background-image:url(../images/travel-thumbnail.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; 
@@ -391,64 +391,6 @@
 }
 
 .preview-container-pets:hover > .content{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
-    color:rgba(200,200,200,0.7);
-    padding-top: 29%;
-    opacity: 1;
-    transition: opacity 1s ease;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center; 
-
-    height: 200px;
-
-    margin-top: 50px;
-}
-
-.preview-container-street{
-    width: 300px;
-    height: 300px;
-    background-image:url(../images/sliderImages/one.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center; 
-    cursor: pointer;
-}
-
-.preview-container-street > .content{
-    opacity: 0;
-}
-
-.preview-container-street:hover > .content{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
-    color:rgba(200,200,200,0.7);
-    padding-top: 29%;
-    opacity: 1;
-    transition: opacity 1s ease;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center; 
-
-    height: 200px;
-
-    margin-top: 50px;
-}
-
-.preview-container-sports{
-    width: 300px;
-    height: 300px;
-    background-image:url(../images/sliderImages/three.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center; 
-    cursor: pointer;
-}
-
-.preview-container-sports > .content{
-    opacity: 0;
-}
-
-.preview-container-sports:hover > .content{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     color:rgba(200,200,200,0.7);
     padding-top: 29%;
