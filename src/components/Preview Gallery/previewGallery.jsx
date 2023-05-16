@@ -4,7 +4,6 @@ import {
   newbornData,
   automotiveData,
   wildlifedata,
-  birthdayData,
 } from "../../assets/photosDatajson.js/Allphotos";
 
 import "../../styles/previewgallery.css";

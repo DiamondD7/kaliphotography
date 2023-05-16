@@ -12,6 +12,9 @@ import ThomasNameLogo from "../../images/testimonialimages/thomas.png";
 import LaryJack from "../../images/laryjackimages/lj13.jpg";
 import LarryJackNameLogo from "../../images/testimonialimages/laryjack.png";
 
+import SheenaBen from "../../images/sheenabenimages/sb15.jpg";
+import SheenaBenNameLogo from "../../images/testimonialimages/sheenaben.png";
+
 import "../../styles/testimonialsstyles.css";
 
 const Testimonials = () => {
@@ -152,6 +155,37 @@ const Testimonials = () => {
               className="nameslogo"
               src={LarryJackNameLogo}
               alt="larryjacknames"
+            />
+          </div>
+        </div>
+
+        <div className="testimonial__wrapper marLeft">
+          <div
+            className="testimonial-one"
+            style={{
+              backgroundImage: `url(${SheenaBen})`,
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center bottom",
+              height: "700px",
+              width: "700px",
+              filter: "blur(.5px)",
+            }}
+          ></div>
+          <div>
+            <p className="client_statement">
+              "Thank you Tiara for your awesome photographs that me and my
+              family will cherish in our lifetime. Tiara captures intimate
+              moments that not many people can see. She has plenty of ideas
+              which she communicates well and made us feel very comfortable. She
+              is friendly, non judgemental and easy to get along with. The
+              photos turned out great and we love it so much! Thank you once
+              again!."
+            </p>
+            <img
+              className="nameslogo"
+              src={SheenaBenNameLogo}
+              alt="sheenabennames"
             />
           </div>
         </div>

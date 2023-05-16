@@ -54,12 +54,12 @@
             transform: translateX(10%);
         }
         100%{
-            transform: translateX(-510.8%);
+            transform: translateX(-640%);
         }
     }
 
     .testimonials__wrapper .testimonial__wrapper{
-        animation: slowToTheRight 60s linear infinite;
+        animation: slowToTheRight 120s linear infinite;
         
         
     }
