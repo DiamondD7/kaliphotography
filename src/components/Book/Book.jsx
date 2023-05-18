@@ -17,7 +17,11 @@ const Book = () => {
           <br />
           <label htmlFor="subjectEmail">Subject</label>
           <br />
-          <input id="subjectEmail" type="text" />
+          <input
+            id="subjectEmail"
+            type="text"
+            placeholder="eg. Maternity Shoot"
+          />
           <br />
           <label htmlFor="messageEmail">Message</label>
           <br />
