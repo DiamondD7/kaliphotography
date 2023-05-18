@@ -1,0 +1,29 @@
+.book-container__wrapper{
+    display: inline-block;
+    width: 553px;
+    height: 545px;
+    
+    border-right: 1px solid #202020;
+
+    margin-top: 120px;
+}
+
+.contact-title__text{
+    margin: 90px 0 0 190px;
+}
+
+.form__wrapper{
+    margin-left: 190px;
+}
+
+.form__wrapper input{
+    margin-bottom: 20px;
+}
+
+.messsagetextarea{
+    max-width: 300px;
+    min-width: 300px;
+
+    min-height: 100px;
+    max-height: 100px;
+}

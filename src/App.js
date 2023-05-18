@@ -1,10 +1,11 @@
 import React, {useEffect} from 'react';
 import Home from './components/Home';
-import { Phone, InstagramLogo, Envelope, EnvelopeOpen } from "phosphor-react";
+import { Phone, InstagramLogo, Envelope, EnvelopeOpen, Book } from "phosphor-react";
 import About from './components/About';
 import Gallery from './components/Gallery';
 import PreviewGallery from './components/Preview Gallery/previewGallery';
 import Testimonials from './components/Testimonials/Testimonials';
+import BookComponent from './components/Book/Book';
 const App = () => {
     let component;
     switch(window.location.pathname){
@@ -19,6 +20,9 @@ const App = () => {
           break;
         case '/testimonials':
           component = <Testimonials/>
+          break;
+        case '/book':
+          component = <BookComponent/>;
           break;
         default: 
         console.log("Error in te switch statement");
@@ -83,7 +87,7 @@ const App = () => {
               <button className="nav-btns">Pricing</button>
             </li>
             <li>
-              <button className="nav-btns">Book</button>
+              <button className="nav-btns"><a href='/book'>Book</a></button>
             </li>
           </ul>
           <div className='phonenumber__wrapper' id='contactNumber'>
