@@ -54,3 +54,20 @@
     left: 100px;
     width: 400px;
 }
+
+.submit-btn{
+    margin-top: 20px;
+    padding: 3px 20px;
+    border: 1px solid #202020;
+    background-color: #202020;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: #fff;
+    color: #202020;
+    border-radius: 3px;
+    border: 1px solid #202020;
+}
