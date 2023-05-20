@@ -7,6 +7,7 @@ import emailjs from "@emailjs/browser";
 import "../../styles/bookstyles.css";
 const Book = () => {
   const form = useRef();
+  const [formOutcome, setFormOutcome] = useState(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,9 +22,23 @@ const Book = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setTimeout(() => {
+            setFormOutcome(true);
+          }, 10);
+
+          setTimeout(() => {
+            setFormOutcome(null);
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
+          setTimeout(() => {
+            setFormOutcome(false);
+          }, 500);
+
+          setTimeout(() => {
+            setFormOutcome(null);
+          }, 4000);
         }
       );
 
@@ -32,10 +47,20 @@ const Book = () => {
 
   return (
     <div>
+      <div
+        className={
+          formOutcome === true
+            ? "sentmessage__wrapper"
+            : formOutcome === false
+            ? "failsendmessage_wrapper"
+            : "messageHide"
+        }
+      >
+        {formOutcome === true ? <p>SENT</p> : <p>Your message was not sent</p>}
+      </div>
       <div className="book-container__wrapper">
         <div className="book-subcontainer__wrapper">
           <div>
-            {/* <h1 className="contact-title__text">Contact me</h1> */}
             <img
               alt="contactmeheader"
               src={ContactMe}
@@ -76,6 +101,10 @@ const Book = () => {
                 Submit
               </button>
             </form>
+            <p className="directmessageus__text">
+              *If you don't hear back from me within 48 hours, please send me a
+              direct email in case servers are down.
+            </p>
           </div>
 
           <div>
