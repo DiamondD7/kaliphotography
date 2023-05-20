@@ -23,7 +23,11 @@ const Book = () => {
               <br />
               <label htmlFor="emailadd">Email address</label>
               <br />
-              <input id="emailadd" type="text" />
+              <input
+                id="emailadd"
+                type="text"
+                placeholder="eg. cust@gmail.com"
+              />
               <br />
               <label htmlFor="subjectEmail">Subject</label>
               <br />
