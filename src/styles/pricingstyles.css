@@ -14,11 +14,11 @@
 }
 
 .pricing-genres__wrapper{
-    margin-right: 100px;
+    margin-right: 150px;
 }
 
 .pricing-prices__wrapper{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 
@@ -28,6 +28,7 @@
 
 .pricing-genres__wrapper ul li{
     margin-bottom: 22px;
+    font-size: 20px;
 }
 
 .pricing-prices__wrapper ul{
@@ -36,6 +37,7 @@
 
 .pricing-prices__wrapper ul li{
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 
