@@ -6,6 +6,7 @@ import Gallery from './components/Gallery';
 import PreviewGallery from './components/Preview Gallery/previewGallery';
 import Testimonials from './components/Testimonials/Testimonials';
 import BookComponent from './components/Book/Book';
+import Pricing from './components/Pricing/Pricing';
 const App = () => {
     let component;
     switch(window.location.pathname){
@@ -23,6 +24,9 @@ const App = () => {
           break;
         case '/book':
           component = <BookComponent/>;
+          break;
+        case '/pricing':
+          component = <Pricing/>
           break;
         default: 
         console.log("Error in te switch statement");
@@ -84,7 +88,7 @@ const App = () => {
               <button className="nav-btns"><a href='/testimonials'>Testimonials</a></button>
             </li>
             <li>
-              <button className="nav-btns">Pricing</button>
+              <button className="nav-btns"><a href='/pricing'>Pricing</a></button>
             </li>
             <li>
               <button className="nav-btns"><a href='/book'>Book</a></button>

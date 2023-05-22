@@ -1,0 +1,57 @@
+.pricing-container__wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.pricing-image{
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 200px;
+}
+
+.pricing-genres__wrapper{
+    margin-right: 100px;
+}
+
+.pricing-prices__wrapper{
+    margin-left: 100px;
+}
+
+
+.pricing-genres__wrapper ul{
+    list-style: none;
+}
+
+.pricing-genres__wrapper ul li{
+    margin-bottom: 22px;
+}
+
+.pricing-prices__wrapper ul{
+    list-style: none;
+}
+
+.pricing-prices__wrapper ul li{
+    margin-bottom: 20px;
+}
+
+
+.list-divide{
+    margin-top: -20px;
+}
+
+.mt-5{
+    margin-top: 65px;
+}
+
+.list-adjust{
+    margin-top: -10px;
+}
+
+.event{
+    margin-top: 42px;
+
+}
