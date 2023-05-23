@@ -10,9 +10,8 @@ const Home = () => {
   const picArray = [{ url: one }, { url: two }, { url: three }, { url: four }];
   return (
     <div>
-      <div className="hero">
+      <div>
         <img src={logo} className="logo" />
-        <div className="logo-div"></div>
         <ImageSlider imgs={picArray} />
       </div>
     </div>

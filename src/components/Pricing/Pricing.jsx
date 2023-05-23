@@ -33,7 +33,7 @@ const Pricing = () => {
             <li>$300 per hour</li>
             <li className="list-divide">$250 per hour</li>
             <li className="list-divide">$150 per hour</li>
-            <li>$150 per hour</li>
+            <li>$150 for 30 minutes</li>
           </ul>
         </div>
       </div>

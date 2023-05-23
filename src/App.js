@@ -68,7 +68,7 @@ const App = () => {
     },[])
     return(
         <div>
-          <div className='testtest'>
+          <div className='component__wrapper'>
             {component}
           </div>
             <div className="navs">

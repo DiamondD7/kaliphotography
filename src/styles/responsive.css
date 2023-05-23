@@ -1,0 +1,175 @@
+
+
+@media(max-width:1500px){
+
+    /* IMAGES HERO - START */
+    .img-one{
+        height: 950px;
+        width: 100%;
+    }
+    
+    .img-two{
+        height: 950px;
+        width: 100%;
+    }
+    
+    .img-three{
+        height: 950px;
+        width: 100%;
+    }
+    
+    .img-four{
+        height: 950px;
+        width: 100%;
+    }
+
+    .arr-right{
+        top: 40.5%;
+        right: 10px;
+        
+    }
+    
+    .arr-left{
+        left: 10px;
+        
+    }
+
+    /* IMAGES HERO - END */
+
+    /* NAVS- START */
+
+    .social-ul{
+        margin:10px 0 0 50px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 105px;
+    }
+
+    .navigation-ul li{
+        margin-right: 100px;
+    }
+
+    /* NAVS - END */
+
+
+}
+
+@media(max-width:1400px){
+
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 10px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 110px;
+    }
+    /* NAVS - END */
+}
+
+
+@media(max-width:1300px){
+
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 10px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 70px;
+    }
+    /* NAVS - END */
+}
+
+@media(max-width:1253px){
+
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 10px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 0px;
+    }
+
+    .navigation-ul li button{
+        font-size: 15px;
+    }
+    /* NAVS - END */
+}
+
+@media(max-width:1200px){
+
+    
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 10px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 40px;
+    }
+    /* NAVS - END */
+}
+
+@media(max-width:1120px){
+
+    
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 0px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 50px;
+    }
+
+    .navigation-ul li{
+        margin-right: 90px;
+    }
+    /* NAVS - END */
+}
+
+@media(max-width:1059px){
+
+    
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 0px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 90px;
+    }
+
+    .navigation-ul li{
+        margin-right: 70px;
+    }
+    /* NAVS - END */
+}
+
+@media(max-width:982px){
+
+    
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 0px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 100px;
+    }
+
+    .navigation-ul li{
+        margin-right: 50px;
+    }
+    /* NAVS - END */
+}
