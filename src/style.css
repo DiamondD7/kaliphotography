@@ -138,6 +138,7 @@ body{
     position: absolute;
     bottom: 10px;
     left:0;
+    
 }
 
 .social-ul{
@@ -197,6 +198,14 @@ body{
         width: 100%;
     }
 }
+
+.hamburger-menu__wrapper button{
+    margin:12px 0 0 5px;
+    background-color: transparent;
+    border: none;
+}
+
+
 
 
 

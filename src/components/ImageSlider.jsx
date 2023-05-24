@@ -30,7 +30,6 @@ const ImageSlider = ({ imgs }) => {
     };
   }, [currentIndex, picArr.length, interval]);
 
-  console.log(currentIndex);
   return (
     <div>
       <button className="arr-right" onClick={clickNext}>
