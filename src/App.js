@@ -103,6 +103,25 @@ const App = () => {
               <List size={25} color={'#202020'}/>
             </button>
             }
+
+          {isMenuOpen === false ? 
+            <ul className="social-ul__smallScreen">
+              <li id='phoneIcon'>
+                <Phone size={25} color={"#202020"} />
+              </li>
+              <li>
+                <a href="https://www.instagram.com/kali.graphy/" target="_blank">
+                  <InstagramLogo size={25} color={"#202020"} />
+                </a>
+              </li>
+              <li className='envOpen-Icon' id='envOpen'>
+                <EnvelopeOpen size={25} color={"#202020"} />
+              </li>
+              <li id='envClose'>
+                <Envelope size={25} color={"#202020"}/>
+              </li>
+            </ul>
+        : ""}
           </div>
           }
 
@@ -121,6 +140,7 @@ const App = () => {
               <li>
                 <button className="nav-btns"><a href='/previewGallery'>Gallery</a></button>
               </li>
+
               <li>
                 <button className="nav-btns"><a href='/testimonials'>Testimonials</a></button>
               </li>
@@ -138,6 +158,8 @@ const App = () => {
             <div className='email__wrapper' id='email'>
               <p className='email__text'>kali.photography7@gmail.com</p>
             </div>
+            
+            {isSmallScreen === false ? 
             <ul className="social-ul">
               <li id='phoneIcon'>
                 <Phone size={25} color={"#202020"} />
@@ -154,6 +176,7 @@ const App = () => {
                 <Envelope size={25} color={"#202020"}/>
               </li>
             </ul>
+             : ""}
         </div>
        : ""}
         </div>
