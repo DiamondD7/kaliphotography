@@ -195,7 +195,13 @@
 
 @media(max-width:800px){
 
-    
+    /* LOGO-START */
+
+    .logo{
+        width: 80%;
+    }
+
+    /* LOGO-END */
     /* NAVS- END */
 
     .social-ul{
@@ -208,6 +214,44 @@
 
     .navigation-ul li{
         margin-right: 30px;
+    }
+    /* NAVS - END */
+}
+
+@media(max-width:700px){
+
+    /* NAVS- START */
+
+    .social-ul{
+        margin:10px 0 0 0px;
+        gap: 10px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 80px;
+    }
+
+    .navigation-ul li{
+        margin-right: 10px;
+    }
+    /* NAVS - END */
+}
+
+@media(max-width:600px){
+
+    /* NAVS- START */
+
+    .social-ul{
+        margin:10px 0 0 5px;
+        gap: 8px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 5px;
+    }
+
+    .navigation-ul li{
+        margin-right: 7px;
     }
     /* NAVS - END */
 }
