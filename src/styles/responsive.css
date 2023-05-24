@@ -173,3 +173,41 @@
     }
     /* NAVS - END */
 }
+
+@media(max-width:900px){
+
+    
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 -20px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 110px;
+    }
+
+    .navigation-ul li{
+        margin-right: 40px;
+    }
+    /* NAVS - END */
+}
+
+@media(max-width:800px){
+
+    
+    /* NAVS- END */
+
+    .social-ul{
+        margin:10px 0 0 -20px;
+    }
+    
+    .navigation-ul{
+        margin:10px 0 0 70px;
+    }
+
+    .navigation-ul li{
+        margin-right: 30px;
+    }
+    /* NAVS - END */
+}
