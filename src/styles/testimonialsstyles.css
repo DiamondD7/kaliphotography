@@ -16,12 +16,6 @@
     }
 
     .nameslogo{
-        /* position: absolute;
-        top:205px;
-        right: 250px; */
-
-        /* margin-top: -195px;
-        margin-left: 60px; */
 
         margin-top: -155px;
         margin-left: 100px;
@@ -60,11 +54,8 @@
 
     .testimonials__wrapper .testimonial__wrapper{
         animation: slowToTheRight 120s linear infinite;
-        
-        
     }
     
     .testimonials__wrapper:hover .testimonial__wrapper{
         animation-play-state: paused;
-        
     }

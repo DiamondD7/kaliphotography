@@ -258,6 +258,56 @@
 
 @media(max-width:500px){
 
+    /* TESTIMONIAL - START */
+
+    .testimonials__wrapper{
+        margin:100px 0 100px 0;
+        display: flex;
+        overflow: auto;
+    }
+
+    .testimonial__wrapper{
+        width: 600px;
+    }
+
+    .marLeft{
+        margin-left: 50px;
+    }
+
+    .testimonials__wrapper .testimonial__wrapper{
+        animation: none;
+    }
+
+    .client_statement{
+        font-size: 12px;
+        width: 250px;
+        padding-left: 10px;
+        line-height: 1.6;
+    }
+
+    .nameslogo{
+        margin-top: -115px;
+        margin-left: -40px;
+        width: 300px;
+    }
+
+    .banishanameslogo{
+        margin-top: -125px;
+        margin-left: -70px;
+        width: 300px;
+    }
+
+
+    .thomasnameslogo{
+        margin-top: -125px;
+        margin-left: -70px;
+        width: 300px;
+    }
+    /* TESTIMONIAL - END */
+
+
+
+
     /* IMAGES HERO - START */
     .img-one{
         background-position: 60% 10%;
@@ -277,6 +327,10 @@
 
 
     /* IMAGES HERO - END */
+
+
+
+
 
     /* NAVS- START */
 
@@ -310,6 +364,54 @@
 }
 
 @media(max-width:418px){
+     /* TESTIMONIAL - START */
+
+     .testimonials__wrapper{
+        margin:100px 0 100px 0;
+        display: flex;
+        overflow: auto;
+    }
+
+    .testimonial__wrapper{
+        width: 500px;
+    }
+
+    .marLeft{
+        margin-left: 50px;
+    }
+
+    .testimonials__wrapper .testimonial__wrapper{
+        animation: none;
+    }
+
+    .client_statement{
+        font-size: 12px;
+        width: 250px;
+        padding-left: 10px;
+        line-height: 1.6;
+    }
+
+    .nameslogo{
+        margin-top: -115px;
+        margin-left: -40px;
+        width: 300px;
+    }
+
+    .banishanameslogo{
+        margin-top: -125px;
+        margin-left: -70px;
+        width: 300px;
+    }
+
+
+    .thomasnameslogo{
+        margin-top: -125px;
+        margin-left: -70px;
+        width: 300px;
+    }
+    /* TESTIMONIAL - END */
+
+    
 
     /* NAVS- START */
 
