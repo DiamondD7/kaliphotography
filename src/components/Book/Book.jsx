@@ -107,7 +107,7 @@ const Book = () => {
             </p>
           </div>
 
-          <div>
+          <div className="letsworktogether__wrapper">
             <img
               alt="letsworktogetherpng"
               src={LetsWorkTogether}
