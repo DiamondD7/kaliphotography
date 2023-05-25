@@ -239,6 +239,23 @@
 
 @media(max-width:600px){
 
+    /* PRICING - START */
+    .pricing-genres__wrapper{
+        margin-right: 20px;
+    }
+    
+    .pricing-prices__wrapper{
+        margin-left: 50px;
+    }
+
+    .pricing-image{
+        left: 45%;
+    }
+    
+    /* PRICING - END */
+
+
+
     /* NAVS- START */
 
     .social-ul{
@@ -257,6 +274,27 @@
 }
 
 @media(max-width:500px){
+     /* PRICING - START */
+     .pricing-container__wrapper{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 300px;
+    }
+
+     .pricing-genres__wrapper{
+        margin-right: 20px;
+    }
+    
+    .pricing-prices__wrapper{
+        margin-left: 50px;
+    }
+
+    .pricing-image{
+        left: 45%;
+    }
+    
+    /* PRICING - END */
+
 
     /* TESTIMONIAL - START */
 
@@ -364,6 +402,29 @@
 }
 
 @media(max-width:418px){
+    /* PRICING - START */
+    .pricing-container__wrapper{
+        margin-bottom: 370px;
+    }
+
+    .pricing-genres__wrapper ul li{
+        font-size: 15px;
+    }
+
+    .pricing-prices__wrapper ul li{
+        font-size: 15px;
+    }
+
+    .mt-5{
+        margin-top: 59px;
+    }
+    
+    
+    /* PRICING - END */
+
+
+
+
      /* TESTIMONIAL - START */
 
      .testimonials__wrapper{
@@ -445,6 +506,28 @@
 }
 
 @media(max-width:389px){
+     /* PRICING - START */
+     .pricing-container__wrapper{
+        margin-bottom: 370px;
+    }
+
+     .pricing-genres__wrapper{
+        margin-right: 10px;
+    }
+    
+    .pricing-prices__wrapper{
+        margin-left: 10px;
+    }
+
+    .pricing-image{
+        top: 20px;
+        left: 45%;
+        width: 120px;
+    }
+    
+    /* PRICING - END */
+
+
 
     /* NAVS- START */
 
@@ -491,7 +574,6 @@
 }
 
 @media(max-width:235px){
-
     /* NAVS- START */
 
     .navs{ 
