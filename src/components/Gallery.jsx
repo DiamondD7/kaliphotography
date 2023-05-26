@@ -300,7 +300,6 @@ const Gallery = (props) => {
         <div className="event-albums__wrapper">
           <div className="mariabday__wrapper">
             <div className="contents">
-              {/* setData(newbornData); */}
               <button
                 onClick={() => {
                   setData(birthdayData);
@@ -317,7 +316,38 @@ const Gallery = (props) => {
 
           <div className="aidens__wrapper">
             <div className="contents">
-              {/* setData(newbornData); */}
+              <button
+                onClick={() => {
+                  setData(aidenData);
+                  setEventAlbumClicked(false);
+                  setCoupleAlbumClicked(false);
+                  setFamilyAlbumClicked(false);
+                  setInEventAlbum(true);
+                }}
+              >
+                Aiden's 1st
+              </button>
+            </div>
+          </div>
+
+          <div className="aidens__wrapper">
+            <div className="contents">
+              <button
+                onClick={() => {
+                  setData(aidenData);
+                  setEventAlbumClicked(false);
+                  setCoupleAlbumClicked(false);
+                  setFamilyAlbumClicked(false);
+                  setInEventAlbum(true);
+                }}
+              >
+                Aiden's 1st
+              </button>
+            </div>
+          </div>
+
+          <div className="aidens__wrapper">
+            <div className="contents">
               <button
                 onClick={() => {
                   setData(aidenData);
@@ -334,57 +364,6 @@ const Gallery = (props) => {
         </div>
       ) : familyAlbumClicked === true ? (
         <div className="family-albums__wrapper">
-          <div className="kaire-taiwhanga__wrapper">
-            <div className="contents">
-              <button
-                onClick={() => {
-                  setData(ktData);
-                  setEventAlbumClicked(false);
-                  setCoupleAlbumClicked(false);
-                  setFamilyAlbumClicked(false);
-                  setInEventAlbum(false);
-                  setInFamilyAlbum(true);
-                }}
-              >
-                Kaire-Taiwhanga
-              </button>
-            </div>
-          </div>
-
-          <div className="kaire-taiwhanga__wrapper">
-            <div className="contents">
-              <button
-                onClick={() => {
-                  setData(ktData);
-                  setEventAlbumClicked(false);
-                  setCoupleAlbumClicked(false);
-                  setFamilyAlbumClicked(false);
-                  setInEventAlbum(false);
-                  setInFamilyAlbum(true);
-                }}
-              >
-                Kaire-Taiwhanga
-              </button>
-            </div>
-          </div>
-
-          <div className="kaire-taiwhanga__wrapper">
-            <div className="contents">
-              <button
-                onClick={() => {
-                  setData(ktData);
-                  setEventAlbumClicked(false);
-                  setCoupleAlbumClicked(false);
-                  setFamilyAlbumClicked(false);
-                  setInEventAlbum(false);
-                  setInFamilyAlbum(true);
-                }}
-              >
-                Kaire-Taiwhanga
-              </button>
-            </div>
-          </div>
-
           <div className="kaire-taiwhanga__wrapper">
             <div className="contents">
               <button
@@ -426,7 +405,7 @@ const Gallery = (props) => {
         <div className="gallery">
           {data === null ? (
             <div className="comingsoon__wrapper">
-              <img src={comingSoon} />
+              <img className="comingsoon-image" src={comingSoon} />
             </div>
           ) : (
             <div>
@@ -460,7 +439,6 @@ const Gallery = (props) => {
                       alt="picture-data"
                       src={items.imgSrc}
                       style={{ width: "100%" }}
-                      loading="lazy"
                     />
                   </div>
                 ))}

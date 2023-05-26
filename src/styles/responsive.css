@@ -31,6 +31,11 @@
         grid-template-columns: repeat(4, 305px);
     } 
 
+    .engagement-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 305px);
+    }
+
     /* GALLERY - END */
 }
 
@@ -114,6 +119,11 @@
         grid-template-columns: repeat(4, 305px);
     } 
 
+    .event-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 305px);
+    }
+
     /* GALLERY - END */
 }
 
@@ -140,6 +150,19 @@
         padding-top: 26.3%;
         background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     }
+
+    .engagement-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 305px);
+        grid-template-rows: repeat(2, 220px);
+    }
+
+    .event-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 305px);
+        grid-template-rows: repeat(2, 220px);
+    }
+
 
     /* GALLERY - END */
 }
@@ -220,6 +243,20 @@
         margin:10px 0 0 40px;
     }
     /* NAVS - END */
+
+
+    /* GALLERY - START */
+
+    .backbtncouplealbum{
+        top: 18px;
+        left: 200px;
+    }
+
+    .comingsoon__wrapper{
+        margin-left: 100px;
+    }
+
+    /* GALLERY - END */
 }
 
 @media(max-width:1120px){
@@ -414,6 +451,53 @@
     }
 
 
+    .engagement-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 255px);
+        grid-template-rows: repeat(2, 200px);
+    }
+
+        /* GALLERY EVENT - START */
+
+        .event-albums__wrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 250px);
+            grid-template-rows: repeat(2, 200px);
+        }
+
+        .mariabday__wrapper{
+            height: 150px;
+            width: 300px;
+        
+            margin-top: 20px;
+        }
+        
+        .mariabday__wrapper:hover > .contents{
+            height: 149px;
+            width: 245px;
+            margin-top: 0px;
+            margin-left: 27px;
+            padding-top: 20%;
+        }
+        
+        .aidens__wrapper{
+            height: 150px;
+            width: 300px;
+        
+            margin-top: 20px;
+        }
+        
+        .aidens__wrapper:hover > .contents{
+            height: 149px;
+            width: 245px;
+            margin-top: 0px;
+            margin-left: 27px;
+            padding-top: 20%;
+        }
+        
+
+        /* GALLERY EVENT - END */
+
     /* GALLERY - END */
 }
 
@@ -434,6 +518,15 @@
         margin-right: 50px;
     }
     /* NAVS - END */
+
+
+    /* GALLERY - START */
+    
+    .comingsoon__wrapper{
+        margin-left: 0px;
+    }
+
+    /* GALLERY - END */
 }
 
 @media(max-width:900px){
@@ -620,6 +713,52 @@
     }
 
 
+    .engagement-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 205px);
+        grid-template-rows: repeat(2, 150px);
+    }
+    
+
+            /* GALLERY EVENT - START */
+
+            .event-albums__wrapper{
+                display: grid;
+                grid-template-columns: repeat(3, 200px);
+                grid-template-rows: repeat(2, 150px);
+            }
+    
+            .mariabday__wrapper{
+                height: 120px;
+                width: 300px;
+                margin-top: 20px;
+            }
+            
+            .mariabday__wrapper:hover > .contents{
+                height: 120px;
+                width: 196px;
+                margin-top: 0px;
+                margin-left: 52px;
+                padding-top: 15%;
+            }
+            
+            .aidens__wrapper{
+                height: 120px;
+                width: 300px;
+                margin-top: 20px;
+            }
+            
+            .aidens__wrapper:hover > .contents{
+                height: 120px;
+                width: 196px;
+                margin-top: 0px;
+                margin-left: 52px;
+                padding-top: 15%;
+            }
+            
+    
+            /* GALLERY EVENT - END */
+
     /* GALLERY - END */
 }
 
@@ -635,6 +774,15 @@
     
     
         /* BOOK - END */
+
+
+        /* GALLERY - START */
+
+        .comingsoon__wrapper{
+            margin-left: -100px;
+        }
+
+        /* GALLERY - END */
 }
 
 @media(max-width:800px){
@@ -701,6 +849,15 @@
     }
 
 
+    .comingsoon__wrapper{
+        margin-left: -100px;
+    }
+
+    .comingsoon-image{
+        width: 550px;
+    }
+
+
     /* GALLERY - END */
 }
 
@@ -720,6 +877,23 @@
         grid-template-columns: repeat(2, 200px);
     }
 
+    .engagement-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(3, 150px);
+    }
+
+
+    /* GALLERY EVENT - START */
+
+    .event-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(2, 150px);
+    }
+    
+
+    /* GALLERY EVENT - END */
     /* GALLERY - END */
 }
 
@@ -1167,15 +1341,35 @@
         margin-right: 7px;
     }
     /* NAVS - END */
+
+
+     /* GALLERY - START */
+
+     .backbtncouplealbum{
+        top: 18px;
+        left: 130px;
+    }
+
+
+
+    .comingsoon__wrapper{
+        margin-left: -70px;
+    }
+
+    .comingsoon-image{
+        width: 450px;
+    }
+
+    /* GALLERY - END */
 }
 
 @media(max-width:530px){
     /* GALLERY - START */
     .gallery{
         width: 80vw;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
         padding: 0 12px;
         overflow-y: auto;
     }
@@ -1208,6 +1402,54 @@
         margin-left: 52px;
         padding-top: 15%;
     }
+
+
+    .engagement-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 195px);
+        grid-template-rows: repeat(3, 150px);
+    }
+
+
+
+    /* GALLERY EVENT - START */
+
+    .event-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 195px);
+        grid-template-rows: repeat(3, 150px);
+    }
+
+    .mariabday__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .mariabday__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+    
+    .aidens__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .aidens__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+    
+
+    /* GALLERY EVENT - END */
 
     /* GALLERY - END */
 }
@@ -1522,6 +1764,20 @@
         margin-right: 7px;
     }
     /* NAVS - END */
+
+
+
+    /* GALLERY - START */
+
+    .comingsoon__wrapper{
+        margin: 50px 0 0 -70px;
+    }
+
+    .comingsoon-image{
+        width: 350px;
+    }
+
+    /* GALLERY - END */
 }
 
 @media(max-width:431px){
@@ -1727,6 +1983,22 @@
         margin-right: 7px;
     }
     /* NAVS - END */
+
+    /* GALLERY - START */
+
+    .comingsoon__wrapper{
+        margin: 150px 0 0 -50px;
+    }
+
+    .comingsoon-image{
+        width: 230px;
+    }
+
+    .album-lists{
+        width: 100px;
+    }
+
+    /* GALLERY - END */
 }
 
 @media(max-width:300px){
@@ -1743,6 +2015,20 @@
 
     .album-lists li button{
         font-size: 10px;
+    }
+
+     .backbtncouplealbum{
+        font-size: 10px;
+        top: 18px;
+        left: 90px;
+    }
+
+    .comingsoon__wrapper{
+        margin: 150px 0 0 -40px;
+    }
+
+    .comingsoon-image{
+        width: 170px;
     }
 
     /* GALLERY - END */
@@ -1769,6 +2055,18 @@
     }
 
     /* BOOK - END */
+
+
+    /* GALLERY - START */
+    .comingsoon__wrapper{
+        margin: 170px 0 0 -35px;
+    }
+
+    .comingsoon-image{
+        width: 150px;
+    }
+
+    /* GALLERY - END */
 }
 
 @media(max-width:235px){
