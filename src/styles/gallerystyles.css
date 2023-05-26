@@ -276,6 +276,11 @@
 
 /* FAMILY ALBUM-START */
 
+.family-albums__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+}
+
 .kaire-taiwhanga__wrapper{
     height: 200px;
     width: 300px;

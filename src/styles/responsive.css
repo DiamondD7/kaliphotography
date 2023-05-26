@@ -1,4 +1,38 @@
 
+@media(max-width:1600px){
+    /* PREVIEW - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+    }
+    /* PREVIEW - END */
+
+
+
+    /* GALLERY - START */
+
+    .event-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 320px);
+    } 
+
+    /* GALLERY - END */
+}
+
+@media(max-width:1525px){
+    /* GALLERY - START */
+    .couple-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 310px);
+    }
+
+    .family-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 305px);
+    } 
+
+    /* GALLERY - END */
+}
 
 @media(max-width:1500px){
 
@@ -67,8 +101,48 @@
         margin:10px 0 0 110px;
     }
     /* NAVS - END */
+
+
+    /* GALLERY - START */
+    .couple-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 310px);
+    }
+
+    .family-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 305px);
+    } 
+
+    /* GALLERY - END */
 }
 
+@media(max-width:1346px){
+
+    /* GALLERY - START */
+    .family-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 305px);
+        grid-template-rows: repeat(2, 220px);
+    } 
+
+    .kaire-taiwhanga__wrapper{
+        height: 200px;
+        width: 300px;
+    
+        margin-top: 20px;
+    }
+    
+    .kaire-taiwhanga__wrapper:hover > .contents{
+        height: 185px;
+        width: 300px;
+        margin-top: 8px;
+        padding-top: 26.3%;
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    }
+
+    /* GALLERY - END */
+}
 
 @media(max-width:1300px){
 
@@ -103,6 +177,18 @@
 }
 
 @media(max-width:1253px){
+    /* PREVIEW GALLERY - START */
+
+    @media(max-width:1600px){
+        .main-container{
+            display: grid;
+            grid-template-columns: repeat(2, 350px);
+        }
+
+    }
+
+    /* PREVIEW GALLERY - END */
+
 
     /* NAVS- END */
 
@@ -111,7 +197,7 @@
     }
     
     .navigation-ul{
-        margin:10px 0 0 0px;
+        margin:10px 0 0 90px;
     }
 
     .navigation-ul li button{
@@ -189,6 +275,146 @@
         margin-right: 70px;
     }
     /* NAVS - END */
+
+    /* GALLERY - START */
+    .gallery{
+        width: 80vw;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding: 0 12px;
+        overflow-y: auto;
+    }
+
+    .couple-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+    }
+
+    .contents{
+        padding-top: 20%;
+        text-align: center;
+    }
+
+
+    .erinwayne__wrapper{
+        height: 150px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .erinwayne__wrapper:hover > .contents{
+        height: 149px;
+        width: 245px;
+        margin-top: 0px;
+        margin-left: 27px;
+        padding-top: 20%;
+    }
+    
+    
+    .banishathomas__wrapper{
+        height: 150px;
+        width: 300px;
+    
+        margin-top: 20px;
+    }
+    
+    .banishathomas__wrapper:hover > .contents{
+        height: 149px;
+        width: 245px;
+        margin-top: 0px;
+        margin-left: 27px;
+        padding-top: 20%;
+    }
+    
+    
+    .emmajono__wrapper{
+        height: 150px;
+        width: 300px;
+    
+        margin-top: 20px;
+    } 
+    
+    .emmajono__wrapper:hover > .contents{
+        height: 149px;
+        width: 245px;
+        margin-top: 0px;
+        margin-left: 27px;
+        padding-top: 20%;
+    } 
+    
+    .laryjack__wrapper{
+        height: 150px;
+        width: 300px;
+    
+        margin-top: 20px;
+    } 
+    
+    .laryjack__wrapper:hover > .contents{
+        height: 149px;
+        width: 245px;
+        margin-top: 0px;
+        margin-left: 27px;
+        padding-top: 20%;
+    } 
+    
+    .sheenaben__wrapper{
+        height: 150px;
+        width: 300px;
+    
+        margin-top: 20px;
+    } 
+    
+    .sheenaben__wrapper:hover > .contents{
+        height: 149px;
+        width: 245px;
+        margin-top: 0px;
+        margin-left: 27px;
+        padding-top: 20%;
+    }
+    
+    
+    .tiaraaaron__wrapper{
+        height: 150px;
+        width: 300px;
+    
+        margin-top: 20px;
+    }
+    
+    .tiaraaaron__wrapper:hover > .contents{
+        height: 149px;
+        width: 245px;
+        margin-top: 0px;
+        margin-left: 27px;
+        padding-top: 20%;
+    }
+
+
+
+
+    .family-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 255px);
+        grid-template-rows: repeat(2, 200px);
+    } 
+
+    .kaire-taiwhanga__wrapper{
+        height: 150px;
+        width: 300px;
+    
+        margin-top: 20px;
+    }
+    
+    .kaire-taiwhanga__wrapper:hover > .contents{
+        height: 149px;
+        width: 245px;
+        margin-top: 0px;
+        margin-left: 27px;
+        padding-top: 20%;
+    }
+
+
+    /* GALLERY - END */
 }
 
 @media(max-width:982px){
@@ -211,6 +437,21 @@
 }
 
 @media(max-width:900px){
+    /* PREVIEW GALLERY - START */
+
+    @media(max-width:1600px){
+        .main-container{
+            display: grid;
+            grid-template-columns: repeat(2, 350px);
+
+            padding-left: 125px;
+        }
+
+    }
+
+    /* PREVIEW GALLERY - END */
+
+
     /* BOOK - START */
     .together-image{
         top: 40%;
@@ -244,6 +485,142 @@
         margin-right: 40px;
     }
     /* NAVS - END */
+
+
+
+
+    /* GALLERY - START */
+    .gallery{
+        width: 80vw;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding: 0 12px;
+        overflow-y: auto;
+    }
+
+    .couple-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+    }
+
+    .contents{
+        padding-top: 15%;
+        text-align: center;
+    }
+
+
+    .erinwayne__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .erinwayne__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+    
+    
+    .banishathomas__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .banishathomas__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+    
+    
+    .emmajono__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    } 
+    
+    .emmajono__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    } 
+    
+    .laryjack__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    } 
+    
+    .laryjack__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    } 
+    
+    .sheenaben__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    } 
+    
+    .sheenaben__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+    
+    
+    .tiaraaaron__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .tiaraaaron__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+
+
+
+    .family-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 205px);
+        grid-template-rows: repeat(2, 150px);
+    } 
+
+    .kaire-taiwhanga__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .kaire-taiwhanga__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+
+
+    /* GALLERY - END */
 }
 
 @media(max-width:857px){
@@ -285,7 +662,226 @@
     /* NAVS - END */
 }
 
+@media(max-width:775px){
+    /* PREVIEW GALLERY - START */
+
+    @media(max-width:1600px){
+        .main-container{
+            display: grid;
+            grid-template-columns: repeat(2, 350px);
+
+            padding-left: 50px;
+        }
+
+    }
+
+    /* PREVIEW GALLERY - END */
+
+
+    /* GALLERY - START */
+
+    .family-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 205px);
+        grid-template-rows: repeat(2, 150px);
+    } 
+
+    .kaire-taiwhanga__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .kaire-taiwhanga__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+
+
+    /* GALLERY - END */
+}
+
+@media(max-width:730px){
+    /* GALLERY - START */
+    .gallery{
+        width: 80vw;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding: 0 12px;
+        overflow-y: auto;
+    }
+
+    .couple-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+    }
+
+    /* GALLERY - END */
+}
+
 @media(max-width:700px){
+
+    /* PREVIEW GALLERY - START */
+
+
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 220px);
+
+        padding-left: 20px;
+    }
+
+    .preview-container-couples{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-couples:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container-maternity{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-maternity:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container-automotive{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-automotive:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container-traditional{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-traditional:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+
+    .preview-container-families{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-families:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container-lifestyle{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-lifestyle:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+    
+    .preview-container-birthday{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-birthday:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container-wedding{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-wedding:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container-wildlife{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-wildlife:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+        
+    .preview-container-landscape{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-landscape:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container-travel{
+        width: 200px;
+        height: 200px;
+    }
+
+    .preview-container-travel:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    .preview-container-pets{
+        width: 200px;
+        height: 200px
+    }
+
+
+    .preview-container-pets:hover > .content{
+        padding-top: 25%;
+        height: 132px;
+        margin-top: 35px;
+    }
+
+    /* PREVIEW GALLERY - END */
+
 
     /* NAVS- START */
 
@@ -302,9 +898,242 @@
         margin-right: 10px;
     }
     /* NAVS - END */
+
+
+    /* GALLERY - START */
+    .gallery{
+        width: 80vw;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 1;
+        padding: 0 12px;
+        overflow-y: auto;
+    }
+    /* GALLERY - END */
+}
+
+@media(max-width:663px){
+
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 180px);
+
+        padding-left: 70px;
+    }
+
+    .preview-container-couples{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-maternity{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-automotive{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-traditional{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .preview-container-families{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-lifestyle{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .preview-container-birthday{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-wedding{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-wildlife{
+        width: 150px;
+        height: 150px;
+    }
+        
+    .preview-container-landscape{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-travel{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-pets{
+        width: 150px;
+        height: 150px
+    }
+
+
+    .preview-container-couples:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-maternity:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-automotive:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-traditional:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-families:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-lifestyle:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-birthday:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-wedding:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-wildlife:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-landscape:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-travel:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .preview-container-pets:hover > .content{
+        padding-top: 23%;
+        height: 100px;
+        margin-top: 25px;
+    }
+    /* PREVIEW GALLERY - END */
+
 }
 
 @media(max-width:600px){
+
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 160px);
+
+        padding-left: 20px;
+    }
+
+    .preview-container-couples{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-maternity{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-automotive{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-traditional{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .preview-container-families{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-lifestyle{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .preview-container-birthday{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-wedding{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-wildlife{
+        width: 150px;
+        height: 150px;
+    }
+        
+    .preview-container-landscape{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-travel{
+        width: 150px;
+        height: 150px;
+    }
+
+    .preview-container-pets{
+        width: 150px;
+        height: 150px
+    }
+    /* PREVIEW GALLERY - END */
 
     /* PRICING - START */
     .pricing-genres__wrapper{
@@ -340,7 +1169,212 @@
     /* NAVS - END */
 }
 
+@media(max-width:530px){
+    /* GALLERY - START */
+    .gallery{
+        width: 80vw;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding: 0 12px;
+        overflow-y: auto;
+    }
+
+    .couple-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+    }
+
+
+
+
+
+    .family-albums__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 195px);
+        grid-template-rows: repeat(3, 150px);
+    } 
+
+    .kaire-taiwhanga__wrapper{
+        height: 120px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .kaire-taiwhanga__wrapper:hover > .contents{
+        height: 120px;
+        width: 196px;
+        margin-top: 0px;
+        margin-left: 52px;
+        padding-top: 15%;
+    }
+
+    /* GALLERY - END */
+}
+
 @media(max-width:500px){
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(3, 130px);
+
+        padding-left: 50px;
+    }
+
+    .preview-container-couples{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container-maternity{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container-automotive{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container-traditional{
+        width: 120px;
+        height: 120px;
+    }
+
+
+    .preview-container-families{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container-lifestyle{
+        width: 120px;
+        height: 120px;
+    }
+    
+    .preview-container-birthday{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container-wedding{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container-wildlife{
+        width: 120px;
+        height: 120px;
+    }
+        
+    .preview-container-landscape{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container-travel{
+        width: 120px;
+        height: 120px;
+    }
+
+    .preview-container-pets{
+        width: 120px;
+        height: 120px
+    }
+
+
+    .preview-container-couples:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-maternity:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-automotive:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-traditional:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-families:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-lifestyle:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-birthday:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-wedding:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-wildlife:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-landscape:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-travel:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .preview-container-pets:hover > .content{
+        padding-top: 22%;
+        height: 80px;
+        margin-top: 20px;
+    }
+    /* PREVIEW GALLERY - END */
+
+
+
+
+    /* PRICING - START */
+    .pricing-genres__wrapper{
+        margin-right: 20px;
+    }
+    
+    .pricing-prices__wrapper{
+        margin-left: 50px;
+    }
+
+    .pricing-image{
+        left: 45%;
+    }
+    
+    /* PRICING - END */
+
+
+
     /* BOOK - START */
     .book-container__wrapper{
         height: 790px;
@@ -490,6 +1524,17 @@
     /* NAVS - END */
 }
 
+@media(max-width:431px){
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(2, 130px);
+
+        padding-left: 80px;
+    }
+    /* PREVIEW GALLERY - END */
+}
+
 @media(max-width:418px){
     /* PRICING - START */
     .pricing-container__wrapper{
@@ -595,6 +1640,17 @@
 }
 
 @media(max-width:389px){
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(2, 130px);
+
+        padding-left: 40px;
+    }
+    /* PREVIEW GALLERY - END */
+
+
+
     /* BOOK - START */
 
     .contactme-image{
@@ -673,7 +1729,38 @@
     /* NAVS - END */
 }
 
+@media(max-width:300px){
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(2, 125px);
+
+        padding-left: 20px;
+    }
+    /* PREVIEW GALLERY - END */
+
+    /* GALLERY - START */
+
+    .album-lists li button{
+        font-size: 10px;
+    }
+
+    /* GALLERY - END */
+
+}
+
 @media(max-width:265px){
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(1, 125px);
+
+        padding-left: 70px;
+    }
+    /* PREVIEW GALLERY - END */
+
+
+
     /* BOOK - START */
     .contactme-image{
         top:50px;
@@ -685,6 +1772,16 @@
 }
 
 @media(max-width:235px){
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(1, 125px);
+
+        padding-left: 50px;
+    }
+    /* PREVIEW GALLERY - END */
+
+
     /* NAVS- START */
 
     .navs{ 
@@ -730,6 +1827,17 @@
 }
 
 @media(max-width:178px){
+    /* PREVIEW GALLERY - START */
+    .main-container{
+        display: grid;
+        grid-template-columns: repeat(1, 125px);
+
+        padding-left: 20px;
+    }
+    /* PREVIEW GALLERY - END */
+
+
+
      /* BOOK - START */
      .contactme-image{
         display: none;

@@ -333,10 +333,60 @@ const Gallery = (props) => {
           </div>
         </div>
       ) : familyAlbumClicked === true ? (
-        <div className="event-albums__wrapper">
+        <div className="family-albums__wrapper">
           <div className="kaire-taiwhanga__wrapper">
             <div className="contents">
-              {/* setData(newbornData); */}
+              <button
+                onClick={() => {
+                  setData(ktData);
+                  setEventAlbumClicked(false);
+                  setCoupleAlbumClicked(false);
+                  setFamilyAlbumClicked(false);
+                  setInEventAlbum(false);
+                  setInFamilyAlbum(true);
+                }}
+              >
+                Kaire-Taiwhanga
+              </button>
+            </div>
+          </div>
+
+          <div className="kaire-taiwhanga__wrapper">
+            <div className="contents">
+              <button
+                onClick={() => {
+                  setData(ktData);
+                  setEventAlbumClicked(false);
+                  setCoupleAlbumClicked(false);
+                  setFamilyAlbumClicked(false);
+                  setInEventAlbum(false);
+                  setInFamilyAlbum(true);
+                }}
+              >
+                Kaire-Taiwhanga
+              </button>
+            </div>
+          </div>
+
+          <div className="kaire-taiwhanga__wrapper">
+            <div className="contents">
+              <button
+                onClick={() => {
+                  setData(ktData);
+                  setEventAlbumClicked(false);
+                  setCoupleAlbumClicked(false);
+                  setFamilyAlbumClicked(false);
+                  setInEventAlbum(false);
+                  setInFamilyAlbum(true);
+                }}
+              >
+                Kaire-Taiwhanga
+              </button>
+            </div>
+          </div>
+
+          <div className="kaire-taiwhanga__wrapper">
+            <div className="contents">
               <button
                 onClick={() => {
                   setData(ktData);
