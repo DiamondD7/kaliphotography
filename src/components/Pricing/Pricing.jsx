@@ -12,7 +12,7 @@ const Pricing = () => {
           <ul>
             <li>Couple</li>
             <li>Family</li>
-            <li>NewBord</li>
+            <li>Newborn</li>
             <li>Maternity</li>
             <li className="list-adjust">Engagement</li>
             <li className="automotive">Automotive</li>
