@@ -143,10 +143,11 @@ body{
 
 .social-ul{
     display: flex;
-    margin:10px 0 0 120px;
+    margin:6px 0 0px 120px;
     gap:20px;
     list-style: none;
 }
+
 .social-ul li a {
     text-decoration: none;
 }
@@ -170,9 +171,10 @@ body{
 
 .nav-btns{
     background-color: transparent;
-    font-size: 18px;
+    font-size: 16px;
     cursor:pointer;
     text-transform: uppercase;
+    letter-spacing: 1px;
     border:none;
     text-decoration: none;
 }

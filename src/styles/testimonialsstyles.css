@@ -1,7 +1,9 @@
     .testimonials__wrapper{
         margin:100px 0 100px 0;
         display: flex;
-        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: auto;
+        padding: 0 50px;
     }
 
 
@@ -52,10 +54,10 @@
         }
     }
 
-    .testimonials__wrapper .testimonial__wrapper{
+    /* .testimonials__wrapper .testimonial__wrapper{
         animation: slowToTheRight 120s linear infinite;
     }
     
     .testimonials__wrapper:hover .testimonial__wrapper{
         animation-play-state: paused;
-    }
+    } */
