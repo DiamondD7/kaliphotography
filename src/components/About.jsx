@@ -4,10 +4,6 @@ import KaliAbout from "../images/aboutimages/KaliPicAboutMe.jpg";
 
 import "../styles/aboutmestyles.css";
 const About = () => {
-  const [historyActive, setHistoryActive] = useState(true);
-  const [passionActive, setPassionActive] = useState(false);
-  const [careerActive, setCareerActive] = useState(false);
-  const [gearsActive, setGearsActive] = useState(false);
   return (
     <div>
       <img className="introduction-title" src={AboutTitle} />
