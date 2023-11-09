@@ -297,3 +297,31 @@ body {
   display: none;
 }
 /*  */
+
+
+.loading__wrapper{
+  height: 100vh;
+  width: 100%;
+  background-color: #f3f3f3;
+  
+}
+
+.loading-icon{
+  position: absolute;
+  top:45%;
+  left:50%;
+  transform: translate(-50% -50%);
+  display: inline-block;
+  animation: loadingAnimation 2s infinite linear;
+}
+
+
+@keyframes loadingAnimation{
+  0%{
+    
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
