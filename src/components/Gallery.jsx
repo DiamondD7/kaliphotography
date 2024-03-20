@@ -12,6 +12,7 @@ import {
   ktData,
   banishathomasData,
   tiaraaaronData,
+  megansamData,
 } from "../assets/photosDatajson.js/Allphotos";
 import comingSoon from "../images/comingSoon.png";
 
@@ -397,6 +398,24 @@ const Gallery = (props) => {
                 }}
               >
                 Sheena & Ben
+              </button>
+            </div>
+          </div>
+
+          <div className="megansam__wrapper">
+            <div className="contents">
+              <button
+                onClick={() => {
+                  setData(megansamData);
+                  setCoupleAlbumClicked(false);
+                  setEventAlbumClicked(false);
+                  setInEventAlbum(false);
+                  setFamilyAlbumClicked(false);
+                  setEngagementAlbumClicked(false);
+                  setInEngagementAlbum(true);
+                }}
+              >
+                Megan & Sam
               </button>
             </div>
           </div>

@@ -48,19 +48,6 @@ const PreviewGallery = () => {
               </div>
             </div>
 
-            <div className="preview-container-traditional" id="nbpreview">
-              <div className="content">
-                <button
-                  onClick={() => {
-                    setDataClicked(newbornData);
-                    setIsAlbumClicked(true);
-                  }}
-                >
-                  Traditional
-                </button>
-              </div>
-            </div>
-
             <div className="preview-container-families">
               <div className="content">
                 <button
@@ -188,6 +175,19 @@ const PreviewGallery = () => {
                   }}
                 >
                   Automotive
+                </button>
+              </div>
+            </div>
+
+            <div className="preview-container-traditional" id="nbpreview">
+              <div className="content">
+                <button
+                  onClick={() => {
+                    setDataClicked(newbornData);
+                    setIsAlbumClicked(true);
+                  }}
+                >
+                  Product
                 </button>
               </div>
             </div>

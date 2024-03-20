@@ -242,6 +242,50 @@ import at5 from '../../images/tiaraaaronimages/at5.jpg'
 import at6 from '../../images/tiaraaaronimages/at6.jpg'
 import at7 from '../../images/tiaraaaronimages/at7.jpg'
 
+import ms1 from '../../images/megansamimages/ms (1).jpg'
+import ms2 from '../../images/megansamimages/ms (2).jpg'
+import ms3 from '../../images/megansamimages/ms (3).jpg'
+import ms4 from '../../images/megansamimages/ms (4).jpg'
+import ms5 from '../../images/megansamimages/ms (5).jpg'
+import ms6 from '../../images/megansamimages/ms (6).jpg'
+import ms7 from '../../images/megansamimages/ms (7).jpg'
+import ms8 from '../../images/megansamimages/ms (8).jpg'
+import ms9 from '../../images/megansamimages/ms (9).jpg'
+import ms10 from '../../images/megansamimages/ms (10).jpg'
+import ms11 from '../../images/megansamimages/ms (11).jpg'
+import ms12 from '../../images/megansamimages/ms (12).jpg'
+import ms13 from '../../images/megansamimages/ms (13).jpg'
+import ms14 from '../../images/megansamimages/ms (14).jpg'
+import ms15 from '../../images/megansamimages/ms (15).jpg'
+import ms16 from '../../images/megansamimages/ms (16).jpg'
+import ms17 from '../../images/megansamimages/ms (17).jpg'
+import ms18 from '../../images/megansamimages/ms (18).jpg'
+import ms19 from '../../images/megansamimages/ms (19).jpg'
+import ms20 from '../../images/megansamimages/ms (20).jpg'
+import ms21 from '../../images/megansamimages/ms (21).jpg'
+import ms22 from '../../images/megansamimages/ms (22).jpg'
+import ms23 from '../../images/megansamimages/ms (23).jpg'
+import ms24 from '../../images/megansamimages/ms (24).jpg'
+import ms25 from '../../images/megansamimages/ms (25).jpg'
+import ms26 from '../../images/megansamimages/ms (26).jpg'
+import ms27 from '../../images/megansamimages/ms (27).jpg'
+import ms28 from '../../images/megansamimages/ms (28).jpg'
+import ms29 from '../../images/megansamimages/ms (29).jpg'
+import ms30 from '../../images/megansamimages/ms (30).jpg'
+import ms31 from '../../images/megansamimages/ms (31).jpg'
+import ms32 from '../../images/megansamimages/ms (32).jpg'
+import ms33 from '../../images/megansamimages/ms (33).jpg'
+import ms34 from '../../images/megansamimages/ms (34).jpg'
+import ms35 from '../../images/megansamimages/ms (35).jpg'
+import ms36 from '../../images/megansamimages/ms (36).jpg'
+import ms37 from '../../images/megansamimages/ms (37).jpg'
+import ms38 from '../../images/megansamimages/ms (38).jpg'
+import ms39 from '../../images/megansamimages/ms (39).jpg'
+import ms40 from '../../images/megansamimages/ms (40).jpg'
+import ms41 from '../../images/megansamimages/ms (41).jpg'
+import ms42 from '../../images/megansamimages/ms (42).jpg'
+
+
 
 export let newbornData = [
   {
@@ -1179,6 +1223,177 @@ export let automotiveData = [
   }
 ]
 
+export let megansamData=[
+  {
+    id:1,
+    imgSrc:ms1
+  },
+  {
+    id:2,
+    imgSrc:ms2
+  },
+  {
+    id:3,
+    imgSrc:ms3
+  },
+  {
+    id:4,
+    imgSrc:ms4
+  },
+  {
+    id:5,
+    imgSrc:ms5
+  },
+  {
+    id:6,
+    imgSrc:ms6
+  },
+  {
+    id:7,
+    imgSrc:ms7
+  },
+  {
+    id:8,
+    imgSrc:ms8
+  },
+  {
+    id:9,
+    imgSrc:ms9
+  },
+  {
+    id:10,
+    imgSrc:ms10
+  },
+  {
+    id:11,
+    imgSrc:ms11
+  },
+  {
+    id:12,
+    imgSrc:ms12
+  },
+  {
+    id:13,
+    imgSrc:ms13
+  },
+  {
+    id:14,
+    imgSrc:ms14
+  },
+  {
+    id:15,
+    imgSrc:ms15
+  },
+  {
+    id:16,
+    imgSrc:ms16
+  },
+  {
+    id:17,
+    imgSrc:ms17
+  },
+  {
+    id:18,
+    imgSrc:ms18
+  },
+  {
+    id:19,
+    imgSrc:ms19
+  },
+  {
+    id:20,
+    imgSrc:ms20
+  },
+  {
+    id:21,
+    imgSrc:ms21
+  },
+  {
+    id:22,
+    imgSrc:ms22
+  },
+  {
+    id:23,
+    imgSrc:ms23
+  },
+  {
+    id:24,
+    imgSrc:ms24
+  },
+  {
+    id:25,
+    imgSrc:ms25
+  },
+  {
+    id:26,
+    imgSrc:ms26
+  },
+  {
+    id:27,
+    imgSrc:ms27
+  },
+  {
+    id:28,
+    imgSrc:ms28
+  },
+  {
+    id:29,
+    imgSrc:ms29
+  },
+  {
+    id:30,
+    imgSrc:ms30
+  },
+  {
+    id:31,
+    imgSrc:ms31
+  },
+  {
+    id:32,
+    imgSrc:ms32
+  },
+  {
+    id:33,
+    imgSrc:ms33
+  },
+  {
+    id:34,
+    imgSrc:ms34
+  },
+  {
+    id:35,
+    imgSrc:ms35
+  },
+  {
+    id:36,
+    imgSrc:ms36
+  },
+  {
+    id:37,
+    imgSrc:ms37
+  },
+  {
+    id:38,
+    imgSrc:ms38
+  },
+  {
+    id:39,
+    imgSrc:ms39
+  },
+  {
+    id:40,
+    imgSrc:ms40
+  },
+  {
+    id:41,
+    imgSrc:ms41
+  },
+  {
+    id:42,
+    imgSrc:ms42
+  }
+]
+
 export let allData = [
     {
       id: 1,
@@ -1250,3 +1465,5 @@ export let allData = [
     },
     
   ];
+
+
