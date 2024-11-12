@@ -57,12 +57,27 @@
 .couple-albums__wrapper{
     display: grid;
     grid-template-columns: repeat(4, 350px);
+    
+}
+
+.contents{
+    margin-top: 8px;
+}
+
+.couple-album__btn{
+    margin-top: 8px;
+    background-color: transparent;
+    border: none;
+    color: #f3f3f3;
+    height: 183px;
+    width: 300px;
+    cursor: pointer;
 }
 
 .erinwayne__wrapper{
     height: 200px;
     width: 300px;
-
+    
     margin-top: 20px;
 
     background-image: url(../images/erinwayneimages/ew44-thumbnail.jpg);
@@ -72,10 +87,12 @@
 }
 
 .erinwayne__wrapper:hover > .contents{
-    height: 185px;
+    /* height: 200px;
     width: 300px;
     margin-top: 8px;
-    padding-top: 26.3%;
+    padding-top: 26.3%; */
+    height: 183px;
+    width: 300px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 }
 
@@ -93,10 +110,9 @@
 }
 
 .banishathomas__wrapper:hover > .contents{
-    height: 185px;
-    width: 300px;
     margin-top: 8px;
-    padding-top: 26.3%;
+    height: 183px;
+    width: 300px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 }
 
@@ -114,10 +130,8 @@
 } 
 
 .emmajono__wrapper:hover > .contents{
-    height: 185px;
+    height: 183px;
     width: 300px;
-    margin-top: 8px;
-    padding-top: 26.3%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 } 
 
@@ -134,10 +148,8 @@
 } 
 
 .laryjack__wrapper:hover > .contents{
-    height: 185px;
+    height: 183px;
     width: 300px;
-    margin-top: 8px;
-    padding-top: 26.3%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 } 
 
@@ -154,10 +166,8 @@
 }
 
 .megansam__wrapper:hover > .contents{
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
-    /* padding-top: 26.3%; */
+    height: 183px;
+    width: 300px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 }
 
@@ -175,9 +185,8 @@
 } 
 
 .sheenaben__wrapper:hover > .contents{
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
+    height: 183px;
+    width: 300px;
     
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 }
@@ -196,10 +205,8 @@
 }
 
 .tiaraaaron__wrapper:hover > .contents{
-    height: 185px;
+    height: 183px;
     width: 300px;
-    margin-top: 8px;
-    padding-top: 26.3%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 }
 
@@ -207,17 +214,17 @@
 
 
 
-.contents{
+/* .contents{
     padding-top: 29%;
     text-align: center;
-}
+} */
 
-.contents button{
+/* .contents button{
     background-color: transparent;
     border: none;
     color: #f3f3f3;
     cursor: pointer;
-}
+} */
 
 
 .backbtncouplealbum{
@@ -254,10 +261,8 @@
 }
 
 .mariabday__wrapper:hover > .contents{
-    height: 185px;
+    height: 183px;
     width: 300px;
-    margin-top: 8px;
-    padding-top: 26.3%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 }
 
@@ -278,10 +283,8 @@
 }
 
 .aidens__wrapper:hover > .contents{
-    height: 185px;
+    height: 183px;
     width: 300px;
-    margin-top: 8px;
-    padding-top: 26.3%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 }
 
@@ -315,10 +318,8 @@
 }
 
 .kaire-taiwhanga__wrapper:hover > .contents{
-    height: 185px;
+    height: 183px;
     width: 300px;
-    margin-top: 8px;
-    padding-top: 26.3%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
 }
 
